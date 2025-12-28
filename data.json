@@ -1,0 +1,3823 @@
+{
+  "users": {
+    "user-1": {
+      "id": "user-1",
+      "username": "yashwanthsai@gmail.com",
+      "password": "password"
+    }
+  },
+  "roadmaps": {
+    "fbe48d98-c0bd-4d5e-bd49-84a3b4124430": {
+      "userId": "user-1",
+      "title": "React Project-Based Learning Path for Beginners",
+      "topic": "react",
+      "goal": "project-building",
+      "skillLevel": "beginner",
+      "timePerWeek": 10,
+      "duration": 12,
+      "learningStyle": "videos,hands-on",
+      "details": "",
+      "phases": [
+        {
+          "id": "phase-1",
+          "title": "React Fundamentals: Setting the Stage",
+          "description": "This phase focuses on grasping the fundamental concepts of React, including JSX, components, props, state, and event handling. You'll learn how to set up a React development environment and build simple UI elements.",
+          "weeks": 3,
+          "milestones": [
+            {
+              "title": "Understanding JSX and Components",
+              "description": "Learn what JSX is, how to write React components (functional and class-based), and the basics of rendering UI.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "React JS Tutorial for Beginners #1 - Introduction",
+                  "url": "https://www.youtube.com/watch?v=Ke90Tje7VS0",
+                  "source": "freeCodeCamp.org",
+                  "duration": "12 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "React Tutorial: Learn React in 5 Simple Steps",
+                  "url": "https://www.w3schools.com/REACT/DEFAULT.ASP",
+                  "source": "W3Schools",
+                  "readTime": "20 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "onlineCourse",
+                  "title": "Modern React with Redux [2023 Update]",
+                  "url": "https://www.udemy.com/course/react-redux/",
+                  "source": "Udemy",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Props and State Management",
+              "description": "Learn how to pass data to components using props and manage component data using state. Understand the difference between props and state.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "React JS Tutorial for Beginners #3 - Props",
+                  "url": "https://www.youtube.com/watch?v=KhBv95gNF9w",
+                  "source": "freeCodeCamp.org",
+                  "duration": "10 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "video",
+                  "title": "React JS Tutorial for Beginners #4 - State",
+                  "url": "https://www.youtube.com/watch?v=IlgJ3lb00Xg",
+                  "source": "freeCodeCamp.org",
+                  "duration": "15 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "A Simple Explanation of React Props",
+                  "url": "https://www.digitalocean.com/community/tutorials/react-props-explained",
+                  "source": "DigitalOcean",
+                  "readTime": "15 min",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Event Handling and Conditional Rendering",
+              "description": "Learn how to handle user events like clicks and form submissions. Understand how to conditionally render different UI elements based on data.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "React JS Tutorial for Beginners #6 - Event Handling",
+                  "url": "https://www.youtube.com/watch?v=yS0N4QZ_32A",
+                  "source": "freeCodeCamp.org",
+                  "duration": "18 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "Conditional Rendering in React",
+                  "url": "https://react.dev/learn/conditional-rendering",
+                  "source": "React Official Documentation",
+                  "readTime": "12 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "video",
+                  "title": "Learn React - Conditional Rendering",
+                  "url": "https://www.youtube.com/watch?v=vG21q_AHkAA",
+                  "source": "Web Dev Simplified",
+                  "duration": "10 min",
+                  "level": "beginner"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "phase-2",
+          "title": "Working with Lists and Forms",
+          "description": "This phase covers rendering lists of data and handling user input through forms. You'll learn how to manage form state and validate user input.",
+          "weeks": 3,
+          "milestones": [
+            {
+              "title": "Rendering Lists and Keys",
+              "description": "Learn how to map over arrays of data to dynamically render lists of components. Understand the importance of keys for efficient rendering.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "React JS Tutorial for Beginners #5 - Lists and Keys",
+                  "url": "https://www.youtube.com/watch?v=i793Qm6ZkQc",
+                  "source": "freeCodeCamp.org",
+                  "duration": "14 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "Lists and Keys - React",
+                  "url": "https://react.dev/learn/rendering-lists",
+                  "source": "React Official Documentation",
+                  "readTime": "15 min",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Controlled Components and Form Handling",
+              "description": "Learn how to create controlled components where the form data is stored in the component's state. Handle form submissions and update state based on user input.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "React JS Tutorial for Beginners #7 - Forms",
+                  "url": "https://www.youtube.com/watch?v=f68XFpdhLzQ",
+                  "source": "freeCodeCamp.org",
+                  "duration": "20 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "Handling Forms - React",
+                  "url": "https://react.dev/learn/managing-state",
+                  "source": "React Official Documentation",
+                  "readTime": "25 min",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Form Validation Basics",
+              "description": "Implement basic client-side form validation to ensure user input meets specific criteria before submission.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "React Forms with Validation - Tutorial",
+                  "url": "https://www.youtube.com/watch?v=tin0a59bK04",
+                  "source": "Academind",
+                  "duration": "25 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "Simple React Form Validation",
+                  "url": "https://www.pluralsight.com/guides/simple-react-form-validation",
+                  "source": "Pluralsight",
+                  "readTime": "20 min",
+                  "level": "beginner"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "phase-3",
+          "title": "Styling React Applications",
+          "description": "This phase introduces different styling techniques for React components, including inline styles, CSS modules, and styled-components. You'll learn how to create visually appealing and maintainable UI.",
+          "weeks": 3,
+          "milestones": [
+            {
+              "title": "Inline Styles and CSS Modules",
+              "description": "Learn how to apply styles directly to elements using inline styles and how to use CSS modules to scope styles to individual components.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "Styling React Components",
+                  "url": "https://www.youtube.com/watch?v=g-aO026fW8Q",
+                  "source": "The Net Ninja",
+                  "duration": "15 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "CSS Modules",
+                  "url": "https://www.freecodecamp.org/news/css-modules-what-why-and-how-to-use-them-d5a1863a2142/",
+                  "source": "freeCodeCamp",
+                  "readTime": "20 min",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Introduction to Styled-Components",
+              "description": "Learn how to use styled-components, a CSS-in-JS library, to write CSS directly within your React components. This enables dynamic styling based on props and state.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "Styled Components Crash Course",
+                  "url": "https://www.youtube.com/watch?v=jE-wAK-WfX0",
+                  "source": "Traversy Media",
+                  "duration": "30 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "Getting Started with Styled Components",
+                  "url": "https://styled-components.com/docs/basics",
+                  "source": "Styled Components Documentation",
+                  "readTime": "25 min",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Applying CSS Frameworks (e.g., Bootstrap, Material UI)",
+              "description": "Learn how to integrate popular CSS frameworks like Bootstrap or Material UI to quickly style your React applications with pre-built components and styles.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "React Bootstrap Tutorial",
+                  "url": "https://www.youtube.com/watch?v=DLfeW4V0i5U",
+                  "source": "Programming with Mosh",
+                  "duration": "35 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "Getting Started with Material UI in React",
+                  "url": "https://mui.com/material-ui/getting-started/usage/",
+                  "source": "Material UI Documentation",
+                  "readTime": "30 min",
+                  "level": "beginner"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "phase-4",
+          "title": "Fetching Data and Working with APIs",
+          "description": "This phase introduces how to fetch data from external APIs using `fetch` or `axios`. You'll learn how to handle asynchronous operations and display data in your React components.",
+          "weeks": 3,
+          "milestones": [
+            {
+              "title": "Making API Requests with Fetch",
+              "description": "Learn how to use the `fetch` API to make GET and POST requests to external APIs. Understand how to handle responses and errors.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "React JS Tutorial for Beginners #12 - Fetch API Data",
+                  "url": "https://www.youtube.com/watch?v=I7iW718SQc0",
+                  "source": "freeCodeCamp.org",
+                  "duration": "22 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "Using the Fetch API",
+                  "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch",
+                  "source": "MDN Web Docs",
+                  "readTime": "25 min",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Introduction to Axios",
+              "description": "Learn how to use Axios, a popular HTTP client, to make API requests. Understand the benefits of using Axios over the `fetch` API.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "Axios Crash Course",
+                  "url": "https://www.youtube.com/watch?v=4UXUA9WrEgs",
+                  "source": "Traversy Media",
+                  "duration": "20 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "How to Use Axios with React",
+                  "url": "https://www.digitalocean.com/community/tutorials/react-axios-react",
+                  "source": "DigitalOcean",
+                  "readTime": "20 min",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Displaying Data from APIs",
+              "description": "Learn how to parse JSON data from API responses and display it in your React components. Handle loading states and error scenarios gracefully.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "Working with APIs in React",
+                  "url": "https://www.youtube.com/watch?v=U9T6YkEDkMo",
+                  "source": "Dave Gray",
+                  "duration": "30 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "Fetching Data in React with Hooks",
+                  "url": "https://www.robinwieruch.de/react-hooks-fetch-data/",
+                  "source": "Robin Wieruch",
+                  "readTime": "25 min",
+                  "level": "beginner"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "fbe48d98-c0bd-4d5e-bd49-84a3b4124430",
+      "status": "active",
+      "progress": 17,
+      "createdAt": "2025-10-11T05:16:23.894Z",
+      "updatedAt": "2025-10-11T05:16:31.871Z"
+    },
+    "2aa06416-1362-4fc2-81c7-39cde5a19012": {
+      "userId": "user-1",
+      "title": "React Beginner Project-Based Learning Roadmap",
+      "topic": "react",
+      "goal": "project-building",
+      "skillLevel": "beginner",
+      "timePerWeek": 10,
+      "duration": 12,
+      "learningStyle": "videos,hands-on,articles",
+      "details": "",
+      "phases": [
+        {
+          "id": "phase-1",
+          "title": "React Fundamentals & Setup",
+          "description": "Understanding the core concepts of React and setting up a development environment.",
+          "weeks": 2,
+          "milestones": [
+            {
+              "title": "Understanding React Core Concepts",
+              "description": "Learn about components, JSX, props, state, and basic React syntax.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "React JS Tutorial for Beginners",
+                  "url": "https://www.youtube.com/watch?v=Ke90Tje7VS0",
+                  "source": "FreeCodeCamp.org",
+                  "duration": "3 hours",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "Thinking in React",
+                  "url": "https://react.dev/learn/thinking-in-react",
+                  "source": "React Documentation",
+                  "readTime": "30 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "online course",
+                  "title": "Modern React with Redux [2023 Update]",
+                  "url": "https://www.udemy.com/course/react-redux/",
+                  "source": "Udemy",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Setting up a React Development Environment",
+              "description": "Install Node.js, npm or yarn, and create a React application using Create React App.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "Create React App Tutorial",
+                  "url": "https://www.youtube.com/watch?v=j942wKiXFu8",
+                  "source": "Net Ninja",
+                  "duration": "20 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "Create a New React App",
+                  "url": "https://react.dev/learn/start-a-new-react-project",
+                  "source": "React Documentation",
+                  "readTime": "15 min",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "JSX and Component Structure",
+              "description": "Master JSX syntax and understand how to structure React components (functional vs class).",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "React JSX Tutorial",
+                  "url": "https://www.youtube.com/watch?v=W3v-vQ15Gz0",
+                  "source": "Traversy Media",
+                  "duration": "30 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "JSX In Depth",
+                  "url": "https://react.dev/learn/writing-markup-with-jsx",
+                  "source": "React Documentation",
+                  "readTime": "20 min",
+                  "level": "beginner"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "phase-2",
+          "title": "Props, State & Event Handling",
+          "description": "Learning how to manage data flow and user interactions in React components.",
+          "weeks": 3,
+          "milestones": [
+            {
+              "title": "Understanding Props and State",
+              "description": "Learn how to pass data down to components using props and manage component data using state.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "React Props Tutorial",
+                  "url": "https://www.youtube.com/watch?v=KhJyr26mvmo",
+                  "source": "Web Dev Simplified",
+                  "duration": "35 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "Passing Data with Props",
+                  "url": "https://react.dev/learn/passing-props-to-a-component",
+                  "source": "React Documentation",
+                  "readTime": "25 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "video",
+                  "title": "React State Tutorial",
+                  "url": "https://www.youtube.com/watch?v=O6P86uwfdR0",
+                  "source": "PedroTech",
+                  "duration": "40 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "State: A Component's Memory",
+                  "url": "https://react.dev/learn/state-a-components-memory",
+                  "source": "React Documentation",
+                  "readTime": "30 min",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Event Handling in React",
+              "description": "Learn how to handle user events like clicks, form submissions, and keyboard input.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "React Event Handling",
+                  "url": "https://www.youtube.com/watch?v=KoEw92tF7kw",
+                  "source": "Dave Gray",
+                  "duration": "25 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "Adding Interactivity",
+                  "url": "https://react.dev/learn/responding-to-events",
+                  "source": "React Documentation",
+                  "readTime": "20 min",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Conditional Rendering",
+              "description": "Learn how to conditionally render different content based on state or props.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "Conditional Rendering in React",
+                  "url": "https://www.youtube.com/watch?v=vqi3B-iWq7w",
+                  "source": "Codevolution",
+                  "duration": "20 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "Conditional Rendering",
+                  "url": "https://react.dev/learn/conditional-rendering",
+                  "source": "React Documentation",
+                  "readTime": "15 min",
+                  "level": "beginner"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "phase-3",
+          "title": "Working with Lists and Forms",
+          "description": "Learn how to render lists of data and handle form inputs in React.",
+          "weeks": 3,
+          "milestones": [
+            {
+              "title": "Rendering Lists in React",
+              "description": "Learn how to iterate over arrays and render lists of components.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "Rendering Lists in React",
+                  "url": "https://www.youtube.com/watch?v=mJYSy1tkzQw",
+                  "source": "LevelUpTuts",
+                  "duration": "30 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "Rendering Lists",
+                  "url": "https://react.dev/learn/rendering-lists",
+                  "source": "React Documentation",
+                  "readTime": "25 min",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Handling Forms in React",
+              "description": "Learn how to create controlled and uncontrolled components for form inputs.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "React Forms Tutorial",
+                  "url": "https://www.youtube.com/watch?v=6j2f-PePGAw",
+                  "source": "The Coding Train",
+                  "duration": "40 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "Managing Form State",
+                  "url": "https://react.dev/learn/managing-state",
+                  "source": "React Documentation",
+                  "readTime": "30 min",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Form Validation",
+              "description": "Implement basic form validation to ensure data integrity.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "React Form Validation Tutorial",
+                  "url": "https://www.youtube.com/watch?v=05KzX4iZ7-U",
+                  "source": "Dev Ed",
+                  "duration": "35 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "Form Validation in React",
+                  "url": "https://www.digitalocean.com/community/tutorials/react-form-validation",
+                  "source": "DigitalOcean",
+                  "readTime": "20 min",
+                  "level": "beginner"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "phase-4",
+          "title": "Styling React Components & API Interaction",
+          "description": "Applying CSS styles to React components and fetching data from APIs.",
+          "weeks": 4,
+          "milestones": [
+            {
+              "title": "Styling with CSS, Styled Components or CSS Modules",
+              "description": "Learn different ways to style React components using CSS, Styled Components, or CSS Modules.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "Styling React Components",
+                  "url": "https://www.youtube.com/watch?v=nu4e_YfqcOo",
+                  "source": "Kevin Powell",
+                  "duration": "45 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "CSS Styling in React",
+                  "url": "https://www.smashingmagazine.com/2020/07/styling-react-components/",
+                  "source": "Smashing Magazine",
+                  "readTime": "35 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "video",
+                  "title": "Styled Components Tutorial",
+                  "url": "https://www.youtube.com/watch?v=bj6FjH6K1vA",
+                  "source": "James Q Quick",
+                  "duration": "30 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "CSS Modules in React",
+                  "url": "https://css-tricks.com/css-modules-part-1-need/",
+                  "source": "CSS-Tricks",
+                  "readTime": "25 min",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Fetching Data from APIs using useEffect",
+              "description": "Learn how to use the useEffect hook to fetch data from APIs.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "React useEffect Hook Tutorial",
+                  "url": "https://www.youtube.com/watch?v=Za_113q8fow",
+                  "source": "Code with Mosh",
+                  "duration": "40 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "Fetching Data with React Hooks",
+                  "url": "https://www.robinwieruch.de/react-hooks-fetch-data/",
+                  "source": "Robin Wieruch",
+                  "readTime": "30 min",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Displaying Data from API",
+              "description": "Render data fetched from APIs into components.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "Displaying API data in React",
+                  "url": "https://www.youtube.com/watch?v=xK5vEa01l5c",
+                  "source": "Brian Design",
+                  "duration": "35 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "Fetching and Displaying Data in React",
+                  "url": "https://www.freecodecamp.org/news/how-to-fetch-data-in-react-with-hooks/",
+                  "source": "FreeCodeCamp",
+                  "readTime": "25 min",
+                  "level": "beginner"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "2aa06416-1362-4fc2-81c7-39cde5a19012",
+      "status": "active",
+      "progress": 25,
+      "createdAt": "2025-10-11T08:20:30.463Z",
+      "updatedAt": "2025-10-11T08:21:12.493Z"
+    },
+    "b7fbfa50-9c52-4b6b-995a-60fef4684fbd": {
+      "userId": "user-1",
+      "title": "React Project Mastery Roadmap",
+      "topic": "react",
+      "goal": "project-building",
+      "skillLevel": "intermediate",
+      "timePerWeek": 10,
+      "duration": 12,
+      "learningStyle": "videos,hands-on",
+      "details": "",
+      "phases": [
+        {
+          "id": "phase-1",
+          "title": "Advanced React Fundamentals & State Management",
+          "description": "Deep dive into advanced React concepts like Context API, Hooks (useReducer, useCallback, useMemo), and different state management solutions.",
+          "weeks": 3,
+          "milestones": [
+            {
+              "title": "Mastering Context API and Advanced Hooks",
+              "description": "Understanding and implementing Context API for global state management, and efficiently using advanced hooks like useReducer, useCallback, and useMemo.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "React Context API Explained",
+                  "url": "https://youtube.com/watch?v=XLc9fW0lH_E",
+                  "source": "Web Dev Simplified",
+                  "duration": "25 min",
+                  "level": "intermediate"
+                },
+                {
+                  "type": "video",
+                  "title": "useReducer Hook Tutorial",
+                  "url": "https://youtube.com/watch?v=lLRjU3bX-4s",
+                  "source": "Traversy Media",
+                  "duration": "30 min",
+                  "level": "intermediate"
+                },
+                {
+                  "type": "article",
+                  "title": "When to use useCallback and useMemo",
+                  "url": "https://kentcdodds.com/blog/usememo-and-usecallback",
+                  "source": "Kent C. Dodds Blog",
+                  "readTime": "15 min",
+                  "level": "intermediate"
+                },
+                {
+                  "type": "onlineCourse",
+                  "title": "Advanced React Patterns",
+                  "url": "https://www.udemy.com/course/advanced-react-patterns/",
+                  "source": "Udemy",
+                  "level": "intermediate"
+                }
+              ]
+            },
+            {
+              "title": "Exploring Redux for State Management",
+              "description": "Implementing Redux, Redux Toolkit, and understanding the core concepts of actions, reducers, and store.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "Redux Toolkit Tutorial for Beginners",
+                  "url": "https://youtube.com/watch?v=9zySe95zGCI",
+                  "source": "The Net Ninja",
+                  "duration": "40 min",
+                  "level": "intermediate"
+                },
+                {
+                  "type": "article",
+                  "title": "Redux Toolkit Official Documentation",
+                  "url": "https://redux-toolkit.js.org/",
+                  "source": "Redux Toolkit",
+                  "readTime": "20 min",
+                  "level": "intermediate"
+                },
+                {
+                  "type": "onlineCourse",
+                  "title": "Modern React with Redux [2023 Update]",
+                  "url": "https://www.udemy.com/course/react-redux/",
+                  "source": "Udemy",
+                  "level": "intermediate"
+                }
+              ]
+            },
+            {
+              "title": "Introducing Zustand and Jotai",
+              "description": "Learning and implementing Zustand and Jotai which are simpler alternative state management libraries",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "Zustand: Simple React State Management",
+                  "url": "https://www.youtube.com/watch?v=m9Kx_8mS0mY",
+                  "source": "Coding with Basir",
+                  "duration": "28 min",
+                  "level": "intermediate"
+                },
+                {
+                  "type": "article",
+                  "title": "Jotai Official Documentation",
+                  "url": "https://jotai.org/",
+                  "source": "Jotai",
+                  "readTime": "15 min",
+                  "level": "intermediate"
+                },
+                {
+                  "type": "article",
+                  "title": "A Comparison of Zustand and Jotai",
+                  "url": "https://www.robinwieruch.de/react-state-libraries/",
+                  "source": "Robin Wieruch",
+                  "readTime": "25 min",
+                  "level": "intermediate"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "phase-2",
+          "title": "Asynchronous React & Data Fetching",
+          "description": "Focusing on handling asynchronous operations in React, including data fetching with different techniques and error handling.",
+          "weeks": 3,
+          "milestones": [
+            {
+              "title": "Mastering useEffect for Data Fetching",
+              "description": "Implementing data fetching using useEffect hook, handling loading states, and managing side effects.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "React useEffect Data Fetching Tutorial",
+                  "url": "https://youtube.com/watch?v=N3AkSS5UhLQ",
+                  "source": "Codevolution",
+                  "duration": "20 min",
+                  "level": "intermediate"
+                },
+                {
+                  "type": "article",
+                  "title": "Using the useEffect Hook",
+                  "url": "https://react.dev/reference/react/useEffect",
+                  "source": "React Documentation",
+                  "readTime": "15 min",
+                  "level": "intermediate"
+                }
+              ]
+            },
+            {
+              "title": "Exploring Axios and Fetch API",
+              "description": "Understanding the differences between Axios and Fetch API for making HTTP requests, and implementing them in React components.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "Axios vs Fetch API in React",
+                  "url": "https://youtube.com/watch?v=cuv3o91G24k",
+                  "source": "Academind",
+                  "duration": "15 min",
+                  "level": "intermediate"
+                },
+                {
+                  "type": "article",
+                  "title": "How to use Axios with React",
+                  "url": "https://www.digitalocean.com/community/tutorials/react-axios",
+                  "source": "DigitalOcean",
+                  "readTime": "20 min",
+                  "level": "intermediate"
+                }
+              ]
+            },
+            {
+              "title": "Implementing Error Handling and Loading States",
+              "description": "Properly handling errors during data fetching and displaying loading states to enhance user experience.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "React Error Handling Best Practices",
+                  "url": "https://youtube.com/watch?v=c-7T_i6N_o8",
+                  "source": "Ben Awad",
+                  "duration": "25 min",
+                  "level": "intermediate"
+                },
+                {
+                  "type": "article",
+                  "title": "Loading Indicators in React",
+                  "url": "https://www.smashingmagazine.com/2020/07/loading-indicators-react/",
+                  "source": "Smashing Magazine",
+                  "readTime": "25 min",
+                  "level": "intermediate"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "phase-3",
+          "title": "React Router and Navigation",
+          "description": "Learning and implementing React Router for creating single-page applications with multiple routes and navigation.",
+          "weeks": 3,
+          "milestones": [
+            {
+              "title": "Setting Up React Router DOM",
+              "description": "Installing and configuring React Router DOM for handling routing in a React application.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "React Router v6 Tutorial",
+                  "url": "https://youtube.com/watch?v=WucOtY-wP48",
+                  "source": "Dave Gray",
+                  "duration": "30 min",
+                  "level": "intermediate"
+                },
+                {
+                  "type": "article",
+                  "title": "React Router Documentation",
+                  "url": "https://reactrouter.com/en/main",
+                  "source": "React Router",
+                  "readTime": "20 min",
+                  "level": "intermediate"
+                }
+              ]
+            },
+            {
+              "title": "Implementing Navigation and Dynamic Routing",
+              "description": "Creating navigation links, using dynamic routing for handling different parameters, and creating protected routes.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "Dynamic Routing with React Router",
+                  "url": "https://youtube.com/watch?v=fQ9qjGzU12w",
+                  "source": "freeCodeCamp.org",
+                  "duration": "40 min",
+                  "level": "intermediate"
+                },
+                {
+                  "type": "article",
+                  "title": "Protected Routes in React",
+                  "url": "https://www.geeksforgeeks.org/how-to-implement-protected-routes-with-react-router-v6/",
+                  "source": "GeeksforGeeks",
+                  "readTime": "20 min",
+                  "level": "intermediate"
+                }
+              ]
+            },
+            {
+              "title": "Advanced Routing Techniques",
+              "description": "Explore advanced routing concepts like lazy loading routes and custom route components.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "React Router Lazy Loading",
+                  "url": "https://www.youtube.com/watch?v=t0N9u0oOa0A",
+                  "source": "James Q Quick",
+                  "duration": "22 min",
+                  "level": "intermediate"
+                },
+                {
+                  "type": "article",
+                  "title": "Building Custom Route Components",
+                  "url": "https://ui.dev/react-router-v5-protected-routes-authentication/",
+                  "source": "UI.dev",
+                  "readTime": "30 min",
+                  "level": "intermediate"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "phase-4",
+          "title": "Testing React Components",
+          "description": "Understanding different testing strategies and implementing tests for React components using Jest and React Testing Library.",
+          "weeks": 3,
+          "milestones": [
+            {
+              "title": "Introduction to Jest and React Testing Library",
+              "description": "Setting up Jest and React Testing Library, and understanding the basics of writing unit tests for React components.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "React Testing Library Tutorial",
+                  "url": "https://youtube.com/watch?v=MLTRhv9m02k",
+                  "source": "Kent C. Dodds",
+                  "duration": "35 min",
+                  "level": "intermediate"
+                },
+                {
+                  "type": "article",
+                  "title": "Getting Started with React Testing Library",
+                  "url": "https://testing-library.com/docs/react-testing-library/intro/",
+                  "source": "React Testing Library",
+                  "readTime": "20 min",
+                  "level": "intermediate"
+                }
+              ]
+            },
+            {
+              "title": "Writing Unit Tests for Components",
+              "description": "Writing unit tests for different types of React components, including functional components, class components, and components with hooks.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "Testing React Components with Hooks",
+                  "url": "https://youtube.com/watch?v=qyMdXEqDXjU",
+                  "source": "Epic React",
+                  "duration": "45 min",
+                  "level": "intermediate"
+                },
+                {
+                  "type": "article",
+                  "title": "Unit Testing React Components: A Comprehensive Guide",
+                  "url": "https://www.toptal.com/react/unit-testing-react-components",
+                  "source": "Toptal",
+                  "readTime": "30 min",
+                  "level": "intermediate"
+                }
+              ]
+            },
+            {
+              "title": "Mocking and Integration Testing",
+              "description": "Understanding mocking techniques for testing components with external dependencies, and performing integration tests to ensure components work together correctly.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "React Testing Library Mocking Example",
+                  "url": "https://www.youtube.com/watch?v=cpv0-yDMRb4",
+                  "source": "Francesco Ciulla",
+                  "duration": "28 min",
+                  "level": "intermediate"
+                },
+                {
+                  "type": "article",
+                  "title": "Integration Testing with React Testing Library",
+                  "url": "https://testingjavascript.com/lessons/integration-tests",
+                  "source": "Testing JavaScript",
+                  "readTime": "35 min",
+                  "level": "intermediate"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "b7fbfa50-9c52-4b6b-995a-60fef4684fbd",
+      "status": "active",
+      "progress": 17,
+      "createdAt": "2025-10-11T08:27:45.647Z",
+      "updatedAt": "2025-10-11T08:28:02.442Z"
+    },
+    "65011cbc-47bb-41c2-936e-ff84f2c26d1b": {
+      "userId": "user-1",
+      "title": "Beginner Full Stack Web Development Project Builder Roadmap (24 Weeks)",
+      "topic": "full stack web dev",
+      "goal": "project-building",
+      "skillLevel": "beginner",
+      "timePerWeek": 10,
+      "duration": 24,
+      "learningStyle": "videos,hands-on,books",
+      "details": "",
+      "phases": [
+        {
+          "id": "phase-1",
+          "title": "Phase 1: Frontend Fundamentals (HTML, CSS, Basic JavaScript)",
+          "description": "Establish a strong foundation in the core technologies of the web: structure (HTML), styling (CSS), and basic interactivity (JavaScript).",
+          "weeks": 4,
+          "milestones": [
+            {
+              "title": "Milestone 1.1: Mastering HTML Structure",
+              "description": "Understand semantic HTML5, document structure, forms, and accessibility basics.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "HTML Crash Course",
+                  "url": "https://youtube.com/watch?v=kJGSx0A9pQ4",
+                  "source": "Traversy Media",
+                  "duration": "1 hr 30 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "MDN HTML Guide: Getting Started",
+                  "url": "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML",
+                  "source": "MDN Web Docs",
+                  "readTime": "45 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "online course",
+                  "title": "HTML, CSS, and Javascript for Web Developers",
+                  "url": "https://www.coursera.org/learn/html-css-javascript-for-web-developers",
+                  "source": "Coursera (Johns Hopkins University)",
+                  "duration": "Approx. 4 weeks (part-time)",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Milestone 1.2: Modern CSS Layout and Styling",
+              "description": "Learn Flexbox, CSS Grid, responsive design principles (media queries), and basic CSS preprocessors concepts.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "Flexbox vs Grid: What's the Difference?",
+                  "url": "https://youtube.com/watch?v=cq3sWz9s50w",
+                  "source": "Web Dev Simplified",
+                  "duration": "25 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "A Complete Guide to Flexbox",
+                  "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+                  "source": "CSS-Tricks",
+                  "readTime": "30 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "book",
+                  "title": "Learning Web Design (Chapter on CSS)",
+                  "url": "N/A (Purchase required)",
+                  "source": "Jennifer Robbins",
+                  "duration": "Self-paced",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Milestone 1.3: JavaScript Fundamentals (DOM Manipulation)",
+              "description": "Grasp variables, functions, arrays, objects, control flow, and how to manipulate the Document Object Model (DOM).",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "JavaScript Crash Course For Beginners",
+                  "url": "https://youtube.com/watch?v=q6LvARH_FJo",
+                  "source": "freeCodeCamp.org",
+                  "duration": "8 hours (Focus on first 3 hours)",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "JavaScript Basics: Variables and Data Types",
+                  "url": "https://javascript.info/types",
+                  "source": "javascript.info",
+                  "readTime": "40 min",
+                  "level": "beginner"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "phase-2",
+          "title": "Phase 2: Modern Frontend & Tooling",
+          "description": "Transition from vanilla JavaScript to a modern framework (React) and learn essential developer tools like Git and the command line.",
+          "weeks": 6,
+          "milestones": [
+            {
+              "title": "Milestone 2.1: Command Line and Git Version Control",
+              "description": "Learn basic terminal commands (cd, ls, mkdir) and set up Git for tracking code changes (init, add, commit, push, pull).",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "Git and GitHub Crash Course for Beginners",
+                  "url": "https://youtube.com/watch?v=RGOj5yH7uhA",
+                  "source": "Traversy Media",
+                  "duration": "1 hr 15 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "The Beginner's Guide to the Command Line",
+                  "url": "https://medium.com/swlh/the-beginners-guide-to-the-command-line-312e8f07e94e",
+                  "source": "Medium",
+                  "readTime": "12 min",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Milestone 2.2: Introduction to React (Components & State)",
+              "description": "Understand the React philosophy, JSX, functional components, props, and managing local state using the useState hook.",
+              "resources": [
+                {
+                  "type": "online course",
+                  "title": "React - The Complete Guide (incl Hooks, React Router, Redux)",
+                  "url": "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",
+                  "source": "Udemy (Maximilian Schwarzmüller)",
+                  "duration": "Focus on first 8 hours",
+                  "level": "beginner"
+                },
+                {
+                  "type": "video",
+                  "title": "Learn React in 20 Minutes",
+                  "url": "https://youtube.com/watch?v=Y9Nk7_LWzTs",
+                  "source": "Web Dev Simplified",
+                  "duration": "20 min",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Milestone 2.3: React Hooks and Component Lifecycle",
+              "description": "Deep dive into useEffect for side effects and understand how components render and update.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "Understanding useEffect in React",
+                  "url": "https://youtube.com/watch?v=0Z29HqJ38nE",
+                  "source": "Fireship",
+                  "duration": "10 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "Official React Hooks Documentation",
+                  "url": "https://reactjs.org/docs/hooks-intro.html",
+                  "source": "React Official Docs",
+                  "readTime": "60 min",
+                  "level": "beginner"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "phase-3",
+          "title": "Phase 3: Backend Basics (Node.js and Express)",
+          "description": "Build the server side. Learn to set up a basic Node.js server, handle requests, and understand RESTful API principles.",
+          "weeks": 6,
+          "milestones": [
+            {
+              "title": "Milestone 3.1: Introduction to Node.js and NPM",
+              "description": "Understand asynchronous JavaScript, the Node runtime environment, and package management using NPM.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "Node.js Crash Course",
+                  "url": "https://youtube.com/watch?v=RL_b6JpX5_g",
+                  "source": "Traversy Media",
+                  "duration": "1 hr 20 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "Node.js Explained: What Is It and Why Use It?",
+                  "url": "https://www.freecodecamp.org/news/what-is-node-js/",
+                  "source": "freeCodeCamp News",
+                  "readTime": "15 min",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Milestone 3.2: Building a REST API with Express",
+              "description": "Set up an Express server, define routes (GET, POST), and understand middleware.",
+              "resources": [
+                {
+                  "type": "online course",
+                  "title": "Node.js, Express, MongoDB & More: The Complete Bootcamp 2024",
+                  "url": "https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/",
+                  "source": "Udemy (Jonas Schmedtmann)",
+                  "duration": "Focus on Server setup sections",
+                  "level": "beginner"
+                },
+                {
+                  "type": "video",
+                  "title": "Build a REST API with Node.js and Express",
+                  "url": "https://youtube.com/watch?v=L72a3MMcLS4",
+                  "source": "CodeWithHarry",
+                  "duration": "1 hr 10 min",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Milestone 3.3: Understanding Database Concepts (MongoDB/Mongoose)",
+              "description": "Introduction to NoSQL databases. Learn how to connect Node/Express to MongoDB using Mongoose for schema definition and CRUD operations.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "MongoDB Crash Course",
+                  "url": "https://youtube.com/watch?v=OFWJy3HVK8c",
+                  "source": "Traversy Media",
+                  "duration": "1 hr 10 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "Mongoose Basics Tutorial",
+                  "url": "https://mongoosejs.com/docs/guide.html",
+                  "source": "Mongoose Docs",
+                  "readTime": "30 min",
+                  "level": "beginner"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "phase-4",
+          "title": "Phase 4: Connecting Frontend and Backend",
+          "description": "Integrate the React frontend with the Node/Express backend using asynchronous fetching (Axios or Fetch API) to create a true full-stack application.",
+          "weeks": 4,
+          "milestones": [
+            {
+              "title": "Milestone 4.1: Asynchronous Data Fetching in React",
+              "description": "Implement data fetching using the browser's native Fetch API or Axios within React components using useEffect.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "Fetching Data in React with useEffect and Fetch",
+                  "url": "https://youtube.com/watch?v=KqR7p_7L-1s",
+                  "source": "Programming with Mosh",
+                  "duration": "35 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "Axios vs Fetch API: Which Should You Use?",
+                  "url": "https://www.smashingmagazine.com/2020/07/axios-vs-fetch-api/",
+                  "source": "Smashing Magazine",
+                  "readTime": "10 min",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Milestone 4.2: Full CRUD Implementation",
+              "description": "Connecting React components to the backend routes to perform Create, Read, Update, and Delete operations seamlessly.",
+              "resources": [
+                {
+                  "type": "online course",
+                  "title": "MERN Stack Front To Back - Full Stack React, Node, Express, Mongo",
+                  "url": "https://www.udemy.com/course/mern-stack-front-to-back-the-complete-guide/",
+                  "source": "Udemy (Brad Traversy)",
+                  "duration": "Focus on the full-stack integration sections",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "Handling Form Submissions in React with State",
+                  "url": "https://www.robinwieruch.de/react-form-handling/",
+                  "source": "Robin Wieruch",
+                  "readTime": "20 min",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Milestone 4.3: Basic Client-Side Routing (React Router)",
+              "description": "Implement navigation within the React SPA using React Router (setting up routes, links, and dynamic parameters).",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "React Router v6 Tutorial for Beginners",
+                  "url": "https://youtube.com/watch?v=L70Xz-9_D0k",
+                  "source": "Web Dev Simplified",
+                  "duration": "40 min",
+                  "level": "beginner"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "phase-5",
+          "title": "Phase 5: Deployment and Final Project Integration",
+          "description": "Finalize the foundational projects by learning deployment techniques for both the frontend and backend, ensuring the application is live.",
+          "weeks": 4,
+          "milestones": [
+            {
+              "title": "Milestone 5.1: Frontend Deployment (Netlify/Vercel)",
+              "description": "Learn how to build a React application and deploy the static files to a modern hosting platform.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "Deploying a React App to Netlify (Beginner)",
+                  "url": "https://youtube.com/watch?v=Qh5Qp9u0o9Y",
+                  "source": "The Net Ninja",
+                  "duration": "18 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "Getting Started with Vercel for React Apps",
+                  "url": "https://vercel.com/docs/overview",
+                  "source": "Vercel Documentation",
+                  "readTime": "20 min",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Milestone 5.2: Backend Deployment (Render/Heroku)",
+              "description": "Prepare the Node.js/Express application for production, handle environment variables, and deploy the server and database connection.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "Deploy Node.js/Express App to Render (2024)",
+                  "url": "https://youtube.com/watch?v=J8B_p11tB04",
+                  "source": "Code with Antonio",
+                  "duration": "45 min",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Milestone 5.3: Final Project Consolidation and Review",
+              "description": "Refine the main project, ensure smooth communication between deployed frontend and backend, and practice explaining the architecture.",
+              "resources": [
+                {
+                  "type": "book",
+                  "title": "Full Stack Development with React, Node.js, and MongoDB (Select Chapters)",
+                  "url": "N/A (If available)",
+                  "source": "O'Reilly/Manning (General Concepts)",
+                  "duration": "Self-paced Review",
+                  "level": "beginner"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "65011cbc-47bb-41c2-936e-ff84f2c26d1b",
+      "status": "active",
+      "progress": 7,
+      "createdAt": "2025-10-11T08:36:35.428Z",
+      "updatedAt": "2025-10-11T08:37:16.543Z"
+    },
+    "770d4047-6923-4e0b-b919-6eaeef8232a3": {
+      "userId": "user-1",
+      "title": "Beginner Data Science Project Building Roadmap (12 Weeks)",
+      "topic": "data science",
+      "goal": "project-building",
+      "skillLevel": "beginner",
+      "timePerWeek": 10,
+      "duration": 12,
+      "learningStyle": "videos,hands-on,books",
+      "details": "",
+      "phases": [
+        {
+          "id": "phase-1",
+          "title": "Phase 1: Python Fundamentals for Data Analysis",
+          "description": "Establish a strong foundation in Python programming, focusing specifically on data structures and essential libraries (NumPy and Pandas).",
+          "weeks": 3,
+          "milestones": [
+            {
+              "title": "Python Basics & Environment Setup",
+              "description": "Setting up the Python environment (Anaconda/VS Code) and mastering core Python syntax, control flow, and functions.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "Python Tutorial for Beginners - Full Course (10 Hours)",
+                  "url": "https://www.youtube.com/results?search_query=Python%20full%20course%20for%20beginners%202024%20freeCodeCamp",
+                  "source": "YouTube Search",
+                  "duration": "10 hours",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "Getting Started with Anaconda and Jupyter Notebooks",
+                  "url": "https://docs.anaconda.com/anaconda/user-guide/getting-started/",
+                  "source": "Anaconda Documentation",
+                  "readTime": "20 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "course",
+                  "title": "Python for Everybody Specialization (Course 1: Programming Foundations)",
+                  "url": "https://www.coursera.org/learn/python-programming-foundations",
+                  "source": "Coursera",
+                  "duration": "4 weeks",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Mastering NumPy for Numerical Operations",
+              "description": "Learning array creation, indexing, mathematical operations, and broadcasting using the NumPy library.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "NumPy Tutorial for Beginners - Array Manipulation and Operations",
+                  "url": "https://www.youtube.com/results?search_query=NumPy%20array%20creation%20and%20manipulation%20beginner%20tutorial",
+                  "source": "YouTube Search",
+                  "duration": "1 hour 30 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "Introduction to NumPy",
+                  "url": "https://numpy.org/doc/stable/user/quickstart.html",
+                  "source": "NumPy Official Documentation",
+                  "readTime": "30 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "course",
+                  "title": "Introduction to Data Science with Python (Focus on NumPy)",
+                  "url": "https://www.datacamp.com/courses/introduction-to-numpy",
+                  "source": "DataCamp",
+                  "duration": "3 hours",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Data Wrangling with Pandas",
+              "description": "Understanding Series and DataFrames, data loading, cleaning (handling NaNs), filtering, and basic aggregation.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "Pandas Tutorial for Beginners: DataFrames Explained",
+                  "url": "https://www.youtube.com/results?search_query=Pandas%20DataFrame%20beginner%20tutorial%20data%20loading%20cleaning",
+                  "source": "YouTube Search",
+                  "duration": "2 hours",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "10 Minutes to Pandas",
+                  "url": "https://pandas.pydata.org/docs/user_guide/10min.html",
+                  "source": "Pandas Documentation",
+                  "readTime": "15 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "course",
+                  "title": "Data Manipulation with Pandas Course",
+                  "url": "https://www.udemy.com/course/data-manipulation-with-pandas",
+                  "source": "Udemy",
+                  "duration": "5 hours",
+                  "level": "beginner"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "phase-2",
+          "title": "Phase 2: Data Visualization and Exploration (EDA)",
+          "description": "Learning how to effectively visualize data using Matplotlib and Seaborn to perform Exploratory Data Analysis (EDA).",
+          "weeks": 3,
+          "milestones": [
+            {
+              "title": "Matplotlib Fundamentals",
+              "description": "Creating basic plots (line, scatter, bar) and understanding figure, axes, and subplot configuration in Matplotlib.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "Matplotlib Tutorial for Beginners - Creating Basic Plots",
+                  "url": "https://www.youtube.com/results?search_query=Matplotlib%20tutorial%20for%20beginners%20line%20scatter%20plot%20guide",
+                  "source": "YouTube Search",
+                  "duration": "1 hour 45 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "Matplotlib Tutorial: An Introduction",
+                  "url": "https://www.machinelearningplus.com/plots/matplotlib-tutorial-beginners/",
+                  "source": "Machine Learning Plus",
+                  "readTime": "25 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "course",
+                  "title": "Data Visualization with Python",
+                  "url": "https://www.edx.org/course/data-visualization-with-python",
+                  "source": "edX",
+                  "duration": "3 weeks",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Statistical Visualization with Seaborn",
+              "description": "Leveraging Seaborn for generating statistically meaningful visualizations (histograms, box plots, correlation heatmaps).",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "Seaborn Tutorial for Data Science: Statistical Plots Explained",
+                  "url": "https://www.youtube.com/results?search_query=Seaborn%20statistical%20plots%20tutorial%20for%20beginners%20EDA",
+                  "source": "YouTube Search",
+                  "duration": "1 hour 15 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "Seaborn Documentation: Gallery and Examples",
+                  "url": "https://seaborn.pydata.org/examples/index.html",
+                  "source": "Seaborn Official Docs",
+                  "readTime": "30 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "course",
+                  "title": "Data Visualization with Seaborn",
+                  "url": "https://www.datacamp.com/courses/data-visualization-with-seaborn",
+                  "source": "DataCamp",
+                  "duration": "4 hours",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Conducting Exploratory Data Analysis (EDA)",
+              "description": "Applying Pandas and visualization skills to perform a comprehensive EDA pipeline on a real-world dataset.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "End-to-End Exploratory Data Analysis (EDA) on Titanic Dataset using Python",
+                  "url": "https://www.youtube.com/results?search_query=End%20to%20end%20EDA%20project%20using%20Pandas%20Matplotlib%20beginner",
+                  "source": "YouTube Search",
+                  "duration": "1 hour 30 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "The Complete Guide to Exploratory Data Analysis (EDA)",
+                  "url": "https://towardsdatascience.com/the-complete-guide-to-exploratory-data-analysis-6c58e6d5e55d",
+                  "source": "Towards Data Science",
+                  "readTime": "15 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "project",
+                  "title": "EDA on the Titanic Dataset",
+                  "url": "Kaggle Dataset Link: Titanic - Machine Learning from Disaster",
+                  "source": "Kaggle",
+                  "readTime": "Project Based",
+                  "level": "beginner"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "phase-3",
+          "title": "Phase 3: Introduction to Machine Learning & Scikit-learn",
+          "description": "Grasping fundamental ML concepts (supervised vs. unsupervised) and implementing basic regression and classification models using Scikit-learn.",
+          "weeks": 3,
+          "milestones": [
+            {
+              "title": "ML Concepts and Scikit-learn Setup",
+              "description": "Understanding core ML terminology, the Scikit-learn workflow (fit, predict, transform), and data splitting.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "Machine Learning Basics Explained Simply for Beginners",
+                  "url": "https://www.youtube.com/results?search_query=Machine%20learning%20concepts%20explained%20simply%20for%20beginners",
+                  "source": "YouTube Search",
+                  "duration": "45 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "Scikit-learn User Guide: Getting Started",
+                  "url": "https://scikit-learn.org/stable/getting_started.html",
+                  "source": "Scikit-learn Documentation",
+                  "readTime": "20 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "course",
+                  "title": "Introduction to Machine Learning (Beginner Focus)",
+                  "url": "https://www.udacity.com/course/intro-to-machine-learning-cs110",
+                  "source": "Udacity",
+                  "duration": "10 weeks",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Simple Linear Regression Implementation",
+              "description": "Implementing Linear Regression, understanding coefficients, R-squared, and model evaluation metrics.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "Linear Regression from Scratch using Python and Scikit-learn Tutorial",
+                  "url": "https://www.youtube.com/results?search_query=Linear%20Regression%20implementation%20Scikit-learn%20beginner%20tutorial",
+                  "source": "YouTube Search",
+                  "duration": "1 hour 10 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "Linear Regression in Python with Scikit-learn",
+                  "url": "https://towardsdatascience.com/linear-regression-in-python-with-scikit-learn-de6f71586d65",
+                  "source": "Towards Data Science",
+                  "readTime": "15 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "project",
+                  "title": "Predicting House Prices using Simple Linear Regression",
+                  "url": "Kaggle Dataset Link: California Housing Prices or Boston Housing Dataset",
+                  "source": "Kaggle",
+                  "readTime": "Project Based",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Classification with Logistic Regression and K-NN",
+              "description": "Implementing Logistic Regression and K-Nearest Neighbors (K-NN) for binary classification and evaluating performance (Accuracy, Confusion Matrix).",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "Logistic Regression vs K-NN - Which Classification Model to Choose?",
+                  "url": "https://www.youtube.com/results?search_query=Logistic%20Regression%20and%20K-NN%20implementation%20comparison%20beginner",
+                  "source": "YouTube Search",
+                  "duration": "50 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "Understanding Logistic Regression for Classification",
+                  "url": "https://www.ibm.com/topics/logistic-regression",
+                  "source": "IBM Cloud Education",
+                  "readTime": "12 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "course",
+                  "title": "Machine Learning for Everyone (Focus on Classification)",
+                  "url": "https://www.coursera.org/learn/machine-learning-everyone",
+                  "source": "Coursera",
+                  "duration": "4 weeks",
+                  "level": "beginner"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "phase-4",
+          "title": "Phase 4: Building and Finalizing First Full Project",
+          "description": "Integrate all learned skills—data cleaning, EDA, modeling, and evaluation—into one cohesive, demonstrable project.",
+          "weeks": 3,
+          "milestones": [
+            {
+              "title": "Model Preprocessing and Feature Engineering Basics",
+              "description": "Learning scaling techniques (StandardScaler) and handling categorical data (One-Hot Encoding) required for ML models.",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "Feature Scaling and Encoding in Scikit-learn for Beginners",
+                  "url": "https://www.youtube.com/results?search_query=StandardScaler%20and%20OneHotEncoder%20Scikit-learn%20explained%20tutorial",
+                  "source": "YouTube Search",
+                  "duration": "55 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "A Gentle Introduction to Feature Engineering",
+                  "url": "https://towardsdatascience.com/a-gentle-introduction-to-feature-engineering-e155832b2e5e",
+                  "source": "Towards Data Science",
+                  "readTime": "10 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "course",
+                  "title": "Feature Engineering for Machine Learning",
+                  "url": "https://www.udemy.com/course/feature-engineering-for-machine-learning/",
+                  "source": "Udemy",
+                  "duration": "6 hours",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Project 1 Execution: Classification",
+              "description": "Apply the full pipeline (cleaning, EDA, preprocessing, Logistic Regression/K-NN) to a structured classification dataset (e.g., breast cancer, Iris).",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "Step-by-Step Classification Project using Python Scikit-learn Complete Guide",
+                  "url": "https://www.youtube.com/results?search_query=Complete%20classification%20project%20Scikit-learn%20pipeline%20beginner%20tutorial",
+                  "source": "YouTube Search",
+                  "duration": "2 hours",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "How to Structure Your First Machine Learning Project Notebook",
+                  "url": "https://www.kdnuggets.com/2021/06/structure-machine-learning-project-notebook.html",
+                  "source": "KDnuggets",
+                  "readTime": "8 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "project",
+                  "title": "Project 1: Classification Model Building",
+                  "url": "Kaggle Dataset Link: Iris or Breast Cancer Wisconsin Dataset",
+                  "source": "Kaggle",
+                  "readTime": "Project Based",
+                  "level": "beginner"
+                }
+              ]
+            },
+            {
+              "title": "Project Documentation and Portfolio Preparation",
+              "description": "Refining the Jupyter Notebook, adding clear explanations, and preparing the project artifact for sharing (e.g., basic GitHub setup).",
+              "resources": [
+                {
+                  "type": "video",
+                  "title": "How to Present Your Data Science Projects Professionally in Notebooks",
+                  "url": "https://www.youtube.com/results?search_query=Documenting%20Jupyter%20Notebook%20for%20data%20science%20portfolio%20guide",
+                  "source": "YouTube Search",
+                  "duration": "40 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "article",
+                  "title": "Best Practices for Organizing and Sharing Data Science Projects on GitHub",
+                  "url": "https://realpython.com/python-projects-github/",
+                  "source": "Real Python",
+                  "readTime": "15 min",
+                  "level": "beginner"
+                },
+                {
+                  "type": "course",
+                  "title": "Introduction to Git and GitHub",
+                  "url": "https://www.udemy.com/course/introduction-to-git-and-github-for-beginners/",
+                  "source": "Udemy",
+                  "duration": "3 hours",
+                  "level": "beginner"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "770d4047-6923-4e0b-b919-6eaeef8232a3",
+      "status": "active",
+      "progress": 0,
+      "createdAt": "2025-10-11T08:52:27.395Z",
+      "updatedAt": "2025-10-11T08:52:27.395Z"
+    }
+  },
+  "milestones": {
+    "fadaf16e-cbfa-46b3-a5de-339d57f15609": {
+      "roadmapId": "fbe48d98-c0bd-4d5e-bd49-84a3b4124430",
+      "phaseId": "phase-1",
+      "title": "Understanding JSX and Components",
+      "description": "Learn what JSX is, how to write React components (functional and class-based), and the basics of rendering UI.",
+      "order": 1,
+      "resources": [
+        {
+          "type": "video",
+          "title": "React JS Tutorial for Beginners #1 - Introduction",
+          "url": "https://www.youtube.com/watch?v=Ke90Tje7VS0",
+          "source": "freeCodeCamp.org",
+          "duration": "12 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "React Tutorial: Learn React in 5 Simple Steps",
+          "url": "https://www.w3schools.com/REACT/DEFAULT.ASP",
+          "source": "W3Schools",
+          "readTime": "20 min",
+          "level": "beginner"
+        },
+        {
+          "type": "onlineCourse",
+          "title": "Modern React with Redux [2023 Update]",
+          "url": "https://www.udemy.com/course/react-redux/",
+          "source": "Udemy",
+          "level": "beginner"
+        }
+      ],
+      "id": "fadaf16e-cbfa-46b3-a5de-339d57f15609",
+      "completed": true,
+      "completedAt": "2025-10-11T05:16:28.573Z"
+    },
+    "8be4cf83-c4b9-4837-a503-98feaee85ab1": {
+      "roadmapId": "fbe48d98-c0bd-4d5e-bd49-84a3b4124430",
+      "phaseId": "phase-1",
+      "title": "Props and State Management",
+      "description": "Learn how to pass data to components using props and manage component data using state. Understand the difference between props and state.",
+      "order": 2,
+      "resources": [
+        {
+          "type": "video",
+          "title": "React JS Tutorial for Beginners #3 - Props",
+          "url": "https://www.youtube.com/watch?v=KhBv95gNF9w",
+          "source": "freeCodeCamp.org",
+          "duration": "10 min",
+          "level": "beginner"
+        },
+        {
+          "type": "video",
+          "title": "React JS Tutorial for Beginners #4 - State",
+          "url": "https://www.youtube.com/watch?v=IlgJ3lb00Xg",
+          "source": "freeCodeCamp.org",
+          "duration": "15 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "A Simple Explanation of React Props",
+          "url": "https://www.digitalocean.com/community/tutorials/react-props-explained",
+          "source": "DigitalOcean",
+          "readTime": "15 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "8be4cf83-c4b9-4837-a503-98feaee85ab1",
+      "completed": true,
+      "completedAt": "2025-10-11T05:16:31.870Z"
+    },
+    "804684c9-20b5-4117-9448-cb0cb49bda52": {
+      "roadmapId": "fbe48d98-c0bd-4d5e-bd49-84a3b4124430",
+      "phaseId": "phase-1",
+      "title": "Event Handling and Conditional Rendering",
+      "description": "Learn how to handle user events like clicks and form submissions. Understand how to conditionally render different UI elements based on data.",
+      "order": 3,
+      "resources": [
+        {
+          "type": "video",
+          "title": "React JS Tutorial for Beginners #6 - Event Handling",
+          "url": "https://www.youtube.com/watch?v=yS0N4QZ_32A",
+          "source": "freeCodeCamp.org",
+          "duration": "18 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "Conditional Rendering in React",
+          "url": "https://react.dev/learn/conditional-rendering",
+          "source": "React Official Documentation",
+          "readTime": "12 min",
+          "level": "beginner"
+        },
+        {
+          "type": "video",
+          "title": "Learn React - Conditional Rendering",
+          "url": "https://www.youtube.com/watch?v=vG21q_AHkAA",
+          "source": "Web Dev Simplified",
+          "duration": "10 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "804684c9-20b5-4117-9448-cb0cb49bda52",
+      "completed": false,
+      "completedAt": null
+    },
+    "7ae987ef-6993-47fc-aac4-0b95c54e70a1": {
+      "roadmapId": "fbe48d98-c0bd-4d5e-bd49-84a3b4124430",
+      "phaseId": "phase-2",
+      "title": "Rendering Lists and Keys",
+      "description": "Learn how to map over arrays of data to dynamically render lists of components. Understand the importance of keys for efficient rendering.",
+      "order": 4,
+      "resources": [
+        {
+          "type": "video",
+          "title": "React JS Tutorial for Beginners #5 - Lists and Keys",
+          "url": "https://www.youtube.com/watch?v=i793Qm6ZkQc",
+          "source": "freeCodeCamp.org",
+          "duration": "14 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "Lists and Keys - React",
+          "url": "https://react.dev/learn/rendering-lists",
+          "source": "React Official Documentation",
+          "readTime": "15 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "7ae987ef-6993-47fc-aac4-0b95c54e70a1",
+      "completed": false,
+      "completedAt": null
+    },
+    "b031be8c-5caf-41f9-9146-b00c4754221e": {
+      "roadmapId": "fbe48d98-c0bd-4d5e-bd49-84a3b4124430",
+      "phaseId": "phase-2",
+      "title": "Controlled Components and Form Handling",
+      "description": "Learn how to create controlled components where the form data is stored in the component's state. Handle form submissions and update state based on user input.",
+      "order": 5,
+      "resources": [
+        {
+          "type": "video",
+          "title": "React JS Tutorial for Beginners #7 - Forms",
+          "url": "https://www.youtube.com/watch?v=f68XFpdhLzQ",
+          "source": "freeCodeCamp.org",
+          "duration": "20 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "Handling Forms - React",
+          "url": "https://react.dev/learn/managing-state",
+          "source": "React Official Documentation",
+          "readTime": "25 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "b031be8c-5caf-41f9-9146-b00c4754221e",
+      "completed": false,
+      "completedAt": null
+    },
+    "625781df-403f-4c6c-9c75-2e2c93fecf1a": {
+      "roadmapId": "fbe48d98-c0bd-4d5e-bd49-84a3b4124430",
+      "phaseId": "phase-2",
+      "title": "Form Validation Basics",
+      "description": "Implement basic client-side form validation to ensure user input meets specific criteria before submission.",
+      "order": 6,
+      "resources": [
+        {
+          "type": "video",
+          "title": "React Forms with Validation - Tutorial",
+          "url": "https://www.youtube.com/watch?v=tin0a59bK04",
+          "source": "Academind",
+          "duration": "25 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "Simple React Form Validation",
+          "url": "https://www.pluralsight.com/guides/simple-react-form-validation",
+          "source": "Pluralsight",
+          "readTime": "20 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "625781df-403f-4c6c-9c75-2e2c93fecf1a",
+      "completed": false,
+      "completedAt": null
+    },
+    "e5468a0e-63ea-4992-8aed-8d0738ee7e91": {
+      "roadmapId": "fbe48d98-c0bd-4d5e-bd49-84a3b4124430",
+      "phaseId": "phase-3",
+      "title": "Inline Styles and CSS Modules",
+      "description": "Learn how to apply styles directly to elements using inline styles and how to use CSS modules to scope styles to individual components.",
+      "order": 7,
+      "resources": [
+        {
+          "type": "video",
+          "title": "Styling React Components",
+          "url": "https://www.youtube.com/watch?v=g-aO026fW8Q",
+          "source": "The Net Ninja",
+          "duration": "15 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "CSS Modules",
+          "url": "https://www.freecodecamp.org/news/css-modules-what-why-and-how-to-use-them-d5a1863a2142/",
+          "source": "freeCodeCamp",
+          "readTime": "20 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "e5468a0e-63ea-4992-8aed-8d0738ee7e91",
+      "completed": false,
+      "completedAt": null
+    },
+    "d07b4ddf-7b94-4452-b5d4-139ef6a2db06": {
+      "roadmapId": "fbe48d98-c0bd-4d5e-bd49-84a3b4124430",
+      "phaseId": "phase-3",
+      "title": "Introduction to Styled-Components",
+      "description": "Learn how to use styled-components, a CSS-in-JS library, to write CSS directly within your React components. This enables dynamic styling based on props and state.",
+      "order": 8,
+      "resources": [
+        {
+          "type": "video",
+          "title": "Styled Components Crash Course",
+          "url": "https://www.youtube.com/watch?v=jE-wAK-WfX0",
+          "source": "Traversy Media",
+          "duration": "30 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "Getting Started with Styled Components",
+          "url": "https://styled-components.com/docs/basics",
+          "source": "Styled Components Documentation",
+          "readTime": "25 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "d07b4ddf-7b94-4452-b5d4-139ef6a2db06",
+      "completed": false,
+      "completedAt": null
+    },
+    "3d22198b-28fc-4735-a00f-d5bced1725c9": {
+      "roadmapId": "fbe48d98-c0bd-4d5e-bd49-84a3b4124430",
+      "phaseId": "phase-3",
+      "title": "Applying CSS Frameworks (e.g., Bootstrap, Material UI)",
+      "description": "Learn how to integrate popular CSS frameworks like Bootstrap or Material UI to quickly style your React applications with pre-built components and styles.",
+      "order": 9,
+      "resources": [
+        {
+          "type": "video",
+          "title": "React Bootstrap Tutorial",
+          "url": "https://www.youtube.com/watch?v=DLfeW4V0i5U",
+          "source": "Programming with Mosh",
+          "duration": "35 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "Getting Started with Material UI in React",
+          "url": "https://mui.com/material-ui/getting-started/usage/",
+          "source": "Material UI Documentation",
+          "readTime": "30 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "3d22198b-28fc-4735-a00f-d5bced1725c9",
+      "completed": false,
+      "completedAt": null
+    },
+    "2269b1d8-f327-4115-be23-152e55067b6c": {
+      "roadmapId": "fbe48d98-c0bd-4d5e-bd49-84a3b4124430",
+      "phaseId": "phase-4",
+      "title": "Making API Requests with Fetch",
+      "description": "Learn how to use the `fetch` API to make GET and POST requests to external APIs. Understand how to handle responses and errors.",
+      "order": 10,
+      "resources": [
+        {
+          "type": "video",
+          "title": "React JS Tutorial for Beginners #12 - Fetch API Data",
+          "url": "https://www.youtube.com/watch?v=I7iW718SQc0",
+          "source": "freeCodeCamp.org",
+          "duration": "22 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "Using the Fetch API",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch",
+          "source": "MDN Web Docs",
+          "readTime": "25 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "2269b1d8-f327-4115-be23-152e55067b6c",
+      "completed": false,
+      "completedAt": null
+    },
+    "33785673-ba43-49a6-978d-1fb6a1d91f1d": {
+      "roadmapId": "fbe48d98-c0bd-4d5e-bd49-84a3b4124430",
+      "phaseId": "phase-4",
+      "title": "Introduction to Axios",
+      "description": "Learn how to use Axios, a popular HTTP client, to make API requests. Understand the benefits of using Axios over the `fetch` API.",
+      "order": 11,
+      "resources": [
+        {
+          "type": "video",
+          "title": "Axios Crash Course",
+          "url": "https://www.youtube.com/watch?v=4UXUA9WrEgs",
+          "source": "Traversy Media",
+          "duration": "20 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "How to Use Axios with React",
+          "url": "https://www.digitalocean.com/community/tutorials/react-axios-react",
+          "source": "DigitalOcean",
+          "readTime": "20 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "33785673-ba43-49a6-978d-1fb6a1d91f1d",
+      "completed": false,
+      "completedAt": null
+    },
+    "e982fdfa-c0e5-4d1d-92eb-518a130fefc3": {
+      "roadmapId": "fbe48d98-c0bd-4d5e-bd49-84a3b4124430",
+      "phaseId": "phase-4",
+      "title": "Displaying Data from APIs",
+      "description": "Learn how to parse JSON data from API responses and display it in your React components. Handle loading states and error scenarios gracefully.",
+      "order": 12,
+      "resources": [
+        {
+          "type": "video",
+          "title": "Working with APIs in React",
+          "url": "https://www.youtube.com/watch?v=U9T6YkEDkMo",
+          "source": "Dave Gray",
+          "duration": "30 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "Fetching Data in React with Hooks",
+          "url": "https://www.robinwieruch.de/react-hooks-fetch-data/",
+          "source": "Robin Wieruch",
+          "readTime": "25 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "e982fdfa-c0e5-4d1d-92eb-518a130fefc3",
+      "completed": false,
+      "completedAt": null
+    },
+    "7b651ef0-a962-4396-8983-2a8887b7ff9a": {
+      "roadmapId": "2aa06416-1362-4fc2-81c7-39cde5a19012",
+      "phaseId": "phase-1",
+      "title": "Understanding React Core Concepts",
+      "description": "Learn about components, JSX, props, state, and basic React syntax.",
+      "order": 1,
+      "resources": [
+        {
+          "type": "video",
+          "title": "React JS Tutorial for Beginners",
+          "url": "https://www.youtube.com/watch?v=Ke90Tje7VS0",
+          "source": "FreeCodeCamp.org",
+          "duration": "3 hours",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "Thinking in React",
+          "url": "https://react.dev/learn/thinking-in-react",
+          "source": "React Documentation",
+          "readTime": "30 min",
+          "level": "beginner"
+        },
+        {
+          "type": "online course",
+          "title": "Modern React with Redux [2023 Update]",
+          "url": "https://www.udemy.com/course/react-redux/",
+          "source": "Udemy",
+          "level": "beginner"
+        }
+      ],
+      "id": "7b651ef0-a962-4396-8983-2a8887b7ff9a",
+      "completed": true,
+      "completedAt": "2025-10-11T08:20:59.270Z"
+    },
+    "373fc4d5-ba29-49b3-9ce1-e54d03141647": {
+      "roadmapId": "2aa06416-1362-4fc2-81c7-39cde5a19012",
+      "phaseId": "phase-1",
+      "title": "Setting up a React Development Environment",
+      "description": "Install Node.js, npm or yarn, and create a React application using Create React App.",
+      "order": 2,
+      "resources": [
+        {
+          "type": "video",
+          "title": "Create React App Tutorial",
+          "url": "https://www.youtube.com/watch?v=j942wKiXFu8",
+          "source": "Net Ninja",
+          "duration": "20 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "Create a New React App",
+          "url": "https://react.dev/learn/start-a-new-react-project",
+          "source": "React Documentation",
+          "readTime": "15 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "373fc4d5-ba29-49b3-9ce1-e54d03141647",
+      "completed": true,
+      "completedAt": "2025-10-11T08:21:09.740Z"
+    },
+    "d4ebdeea-d7fc-41e7-b9ee-dbee087bde1f": {
+      "roadmapId": "2aa06416-1362-4fc2-81c7-39cde5a19012",
+      "phaseId": "phase-1",
+      "title": "JSX and Component Structure",
+      "description": "Master JSX syntax and understand how to structure React components (functional vs class).",
+      "order": 3,
+      "resources": [
+        {
+          "type": "video",
+          "title": "React JSX Tutorial",
+          "url": "https://www.youtube.com/watch?v=W3v-vQ15Gz0",
+          "source": "Traversy Media",
+          "duration": "30 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "JSX In Depth",
+          "url": "https://react.dev/learn/writing-markup-with-jsx",
+          "source": "React Documentation",
+          "readTime": "20 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "d4ebdeea-d7fc-41e7-b9ee-dbee087bde1f",
+      "completed": true,
+      "completedAt": "2025-10-11T08:21:12.492Z"
+    },
+    "5f3fee1b-4004-41ef-9b7b-e46095610b68": {
+      "roadmapId": "2aa06416-1362-4fc2-81c7-39cde5a19012",
+      "phaseId": "phase-2",
+      "title": "Understanding Props and State",
+      "description": "Learn how to pass data down to components using props and manage component data using state.",
+      "order": 4,
+      "resources": [
+        {
+          "type": "video",
+          "title": "React Props Tutorial",
+          "url": "https://www.youtube.com/watch?v=KhJyr26mvmo",
+          "source": "Web Dev Simplified",
+          "duration": "35 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "Passing Data with Props",
+          "url": "https://react.dev/learn/passing-props-to-a-component",
+          "source": "React Documentation",
+          "readTime": "25 min",
+          "level": "beginner"
+        },
+        {
+          "type": "video",
+          "title": "React State Tutorial",
+          "url": "https://www.youtube.com/watch?v=O6P86uwfdR0",
+          "source": "PedroTech",
+          "duration": "40 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "State: A Component's Memory",
+          "url": "https://react.dev/learn/state-a-components-memory",
+          "source": "React Documentation",
+          "readTime": "30 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "5f3fee1b-4004-41ef-9b7b-e46095610b68",
+      "completed": false,
+      "completedAt": null
+    },
+    "cc24c1ae-b67e-4998-b12f-03392c7f626f": {
+      "roadmapId": "2aa06416-1362-4fc2-81c7-39cde5a19012",
+      "phaseId": "phase-2",
+      "title": "Event Handling in React",
+      "description": "Learn how to handle user events like clicks, form submissions, and keyboard input.",
+      "order": 5,
+      "resources": [
+        {
+          "type": "video",
+          "title": "React Event Handling",
+          "url": "https://www.youtube.com/watch?v=KoEw92tF7kw",
+          "source": "Dave Gray",
+          "duration": "25 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "Adding Interactivity",
+          "url": "https://react.dev/learn/responding-to-events",
+          "source": "React Documentation",
+          "readTime": "20 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "cc24c1ae-b67e-4998-b12f-03392c7f626f",
+      "completed": false,
+      "completedAt": null
+    },
+    "929c1a8d-350a-43d7-a4e2-022e4ac47fd9": {
+      "roadmapId": "2aa06416-1362-4fc2-81c7-39cde5a19012",
+      "phaseId": "phase-2",
+      "title": "Conditional Rendering",
+      "description": "Learn how to conditionally render different content based on state or props.",
+      "order": 6,
+      "resources": [
+        {
+          "type": "video",
+          "title": "Conditional Rendering in React",
+          "url": "https://www.youtube.com/watch?v=vqi3B-iWq7w",
+          "source": "Codevolution",
+          "duration": "20 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "Conditional Rendering",
+          "url": "https://react.dev/learn/conditional-rendering",
+          "source": "React Documentation",
+          "readTime": "15 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "929c1a8d-350a-43d7-a4e2-022e4ac47fd9",
+      "completed": false,
+      "completedAt": null
+    },
+    "16f6892b-1c17-417d-b024-e0596eee15de": {
+      "roadmapId": "2aa06416-1362-4fc2-81c7-39cde5a19012",
+      "phaseId": "phase-3",
+      "title": "Rendering Lists in React",
+      "description": "Learn how to iterate over arrays and render lists of components.",
+      "order": 7,
+      "resources": [
+        {
+          "type": "video",
+          "title": "Rendering Lists in React",
+          "url": "https://www.youtube.com/watch?v=mJYSy1tkzQw",
+          "source": "LevelUpTuts",
+          "duration": "30 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "Rendering Lists",
+          "url": "https://react.dev/learn/rendering-lists",
+          "source": "React Documentation",
+          "readTime": "25 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "16f6892b-1c17-417d-b024-e0596eee15de",
+      "completed": false,
+      "completedAt": null
+    },
+    "47190252-ff3d-475f-a019-d47765160da0": {
+      "roadmapId": "2aa06416-1362-4fc2-81c7-39cde5a19012",
+      "phaseId": "phase-3",
+      "title": "Handling Forms in React",
+      "description": "Learn how to create controlled and uncontrolled components for form inputs.",
+      "order": 8,
+      "resources": [
+        {
+          "type": "video",
+          "title": "React Forms Tutorial",
+          "url": "https://www.youtube.com/watch?v=6j2f-PePGAw",
+          "source": "The Coding Train",
+          "duration": "40 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "Managing Form State",
+          "url": "https://react.dev/learn/managing-state",
+          "source": "React Documentation",
+          "readTime": "30 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "47190252-ff3d-475f-a019-d47765160da0",
+      "completed": false,
+      "completedAt": null
+    },
+    "e6fcbd09-bf2c-413f-bbb6-5fc3106686fb": {
+      "roadmapId": "2aa06416-1362-4fc2-81c7-39cde5a19012",
+      "phaseId": "phase-3",
+      "title": "Form Validation",
+      "description": "Implement basic form validation to ensure data integrity.",
+      "order": 9,
+      "resources": [
+        {
+          "type": "video",
+          "title": "React Form Validation Tutorial",
+          "url": "https://www.youtube.com/watch?v=05KzX4iZ7-U",
+          "source": "Dev Ed",
+          "duration": "35 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "Form Validation in React",
+          "url": "https://www.digitalocean.com/community/tutorials/react-form-validation",
+          "source": "DigitalOcean",
+          "readTime": "20 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "e6fcbd09-bf2c-413f-bbb6-5fc3106686fb",
+      "completed": false,
+      "completedAt": null
+    },
+    "afe79da2-9b91-45e9-ae33-2b014b001739": {
+      "roadmapId": "2aa06416-1362-4fc2-81c7-39cde5a19012",
+      "phaseId": "phase-4",
+      "title": "Styling with CSS, Styled Components or CSS Modules",
+      "description": "Learn different ways to style React components using CSS, Styled Components, or CSS Modules.",
+      "order": 10,
+      "resources": [
+        {
+          "type": "video",
+          "title": "Styling React Components",
+          "url": "https://www.youtube.com/watch?v=nu4e_YfqcOo",
+          "source": "Kevin Powell",
+          "duration": "45 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "CSS Styling in React",
+          "url": "https://www.smashingmagazine.com/2020/07/styling-react-components/",
+          "source": "Smashing Magazine",
+          "readTime": "35 min",
+          "level": "beginner"
+        },
+        {
+          "type": "video",
+          "title": "Styled Components Tutorial",
+          "url": "https://www.youtube.com/watch?v=bj6FjH6K1vA",
+          "source": "James Q Quick",
+          "duration": "30 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "CSS Modules in React",
+          "url": "https://css-tricks.com/css-modules-part-1-need/",
+          "source": "CSS-Tricks",
+          "readTime": "25 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "afe79da2-9b91-45e9-ae33-2b014b001739",
+      "completed": false,
+      "completedAt": null
+    },
+    "a12bbd6e-47f5-4fd4-b78f-c16047b5ac4e": {
+      "roadmapId": "2aa06416-1362-4fc2-81c7-39cde5a19012",
+      "phaseId": "phase-4",
+      "title": "Fetching Data from APIs using useEffect",
+      "description": "Learn how to use the useEffect hook to fetch data from APIs.",
+      "order": 11,
+      "resources": [
+        {
+          "type": "video",
+          "title": "React useEffect Hook Tutorial",
+          "url": "https://www.youtube.com/watch?v=Za_113q8fow",
+          "source": "Code with Mosh",
+          "duration": "40 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "Fetching Data with React Hooks",
+          "url": "https://www.robinwieruch.de/react-hooks-fetch-data/",
+          "source": "Robin Wieruch",
+          "readTime": "30 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "a12bbd6e-47f5-4fd4-b78f-c16047b5ac4e",
+      "completed": false,
+      "completedAt": null
+    },
+    "fcd5f732-7935-49c4-a69a-987932fc4453": {
+      "roadmapId": "2aa06416-1362-4fc2-81c7-39cde5a19012",
+      "phaseId": "phase-4",
+      "title": "Displaying Data from API",
+      "description": "Render data fetched from APIs into components.",
+      "order": 12,
+      "resources": [
+        {
+          "type": "video",
+          "title": "Displaying API data in React",
+          "url": "https://www.youtube.com/watch?v=xK5vEa01l5c",
+          "source": "Brian Design",
+          "duration": "35 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "Fetching and Displaying Data in React",
+          "url": "https://www.freecodecamp.org/news/how-to-fetch-data-in-react-with-hooks/",
+          "source": "FreeCodeCamp",
+          "readTime": "25 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "fcd5f732-7935-49c4-a69a-987932fc4453",
+      "completed": false,
+      "completedAt": null
+    },
+    "1c9db5a7-a90c-48d6-92d1-ddc881f38c2e": {
+      "roadmapId": "b7fbfa50-9c52-4b6b-995a-60fef4684fbd",
+      "phaseId": "phase-1",
+      "title": "Mastering Context API and Advanced Hooks",
+      "description": "Understanding and implementing Context API for global state management, and efficiently using advanced hooks like useReducer, useCallback, and useMemo.",
+      "order": 1,
+      "resources": [
+        {
+          "type": "video",
+          "title": "React Context API Explained",
+          "url": "https://youtube.com/watch?v=XLc9fW0lH_E",
+          "source": "Web Dev Simplified",
+          "duration": "25 min",
+          "level": "intermediate"
+        },
+        {
+          "type": "video",
+          "title": "useReducer Hook Tutorial",
+          "url": "https://youtube.com/watch?v=lLRjU3bX-4s",
+          "source": "Traversy Media",
+          "duration": "30 min",
+          "level": "intermediate"
+        },
+        {
+          "type": "article",
+          "title": "When to use useCallback and useMemo",
+          "url": "https://kentcdodds.com/blog/usememo-and-usecallback",
+          "source": "Kent C. Dodds Blog",
+          "readTime": "15 min",
+          "level": "intermediate"
+        },
+        {
+          "type": "onlineCourse",
+          "title": "Advanced React Patterns",
+          "url": "https://www.udemy.com/course/advanced-react-patterns/",
+          "source": "Udemy",
+          "level": "intermediate"
+        }
+      ],
+      "id": "1c9db5a7-a90c-48d6-92d1-ddc881f38c2e",
+      "completed": true,
+      "completedAt": "2025-10-11T08:28:00.665Z"
+    },
+    "291cc35c-68d3-4c31-b3e7-4fa43d4eb434": {
+      "roadmapId": "b7fbfa50-9c52-4b6b-995a-60fef4684fbd",
+      "phaseId": "phase-1",
+      "title": "Exploring Redux for State Management",
+      "description": "Implementing Redux, Redux Toolkit, and understanding the core concepts of actions, reducers, and store.",
+      "order": 2,
+      "resources": [
+        {
+          "type": "video",
+          "title": "Redux Toolkit Tutorial for Beginners",
+          "url": "https://youtube.com/watch?v=9zySe95zGCI",
+          "source": "The Net Ninja",
+          "duration": "40 min",
+          "level": "intermediate"
+        },
+        {
+          "type": "article",
+          "title": "Redux Toolkit Official Documentation",
+          "url": "https://redux-toolkit.js.org/",
+          "source": "Redux Toolkit",
+          "readTime": "20 min",
+          "level": "intermediate"
+        },
+        {
+          "type": "onlineCourse",
+          "title": "Modern React with Redux [2023 Update]",
+          "url": "https://www.udemy.com/course/react-redux/",
+          "source": "Udemy",
+          "level": "intermediate"
+        }
+      ],
+      "id": "291cc35c-68d3-4c31-b3e7-4fa43d4eb434",
+      "completed": true,
+      "completedAt": "2025-10-11T08:28:02.441Z"
+    },
+    "c5f21526-507a-44db-a3ae-666f3cae68da": {
+      "roadmapId": "b7fbfa50-9c52-4b6b-995a-60fef4684fbd",
+      "phaseId": "phase-1",
+      "title": "Introducing Zustand and Jotai",
+      "description": "Learning and implementing Zustand and Jotai which are simpler alternative state management libraries",
+      "order": 3,
+      "resources": [
+        {
+          "type": "video",
+          "title": "Zustand: Simple React State Management",
+          "url": "https://www.youtube.com/watch?v=m9Kx_8mS0mY",
+          "source": "Coding with Basir",
+          "duration": "28 min",
+          "level": "intermediate"
+        },
+        {
+          "type": "article",
+          "title": "Jotai Official Documentation",
+          "url": "https://jotai.org/",
+          "source": "Jotai",
+          "readTime": "15 min",
+          "level": "intermediate"
+        },
+        {
+          "type": "article",
+          "title": "A Comparison of Zustand and Jotai",
+          "url": "https://www.robinwieruch.de/react-state-libraries/",
+          "source": "Robin Wieruch",
+          "readTime": "25 min",
+          "level": "intermediate"
+        }
+      ],
+      "id": "c5f21526-507a-44db-a3ae-666f3cae68da",
+      "completed": false,
+      "completedAt": null
+    },
+    "3f6d2b94-434a-4eea-85db-d8c6ad506819": {
+      "roadmapId": "b7fbfa50-9c52-4b6b-995a-60fef4684fbd",
+      "phaseId": "phase-2",
+      "title": "Mastering useEffect for Data Fetching",
+      "description": "Implementing data fetching using useEffect hook, handling loading states, and managing side effects.",
+      "order": 4,
+      "resources": [
+        {
+          "type": "video",
+          "title": "React useEffect Data Fetching Tutorial",
+          "url": "https://youtube.com/watch?v=N3AkSS5UhLQ",
+          "source": "Codevolution",
+          "duration": "20 min",
+          "level": "intermediate"
+        },
+        {
+          "type": "article",
+          "title": "Using the useEffect Hook",
+          "url": "https://react.dev/reference/react/useEffect",
+          "source": "React Documentation",
+          "readTime": "15 min",
+          "level": "intermediate"
+        }
+      ],
+      "id": "3f6d2b94-434a-4eea-85db-d8c6ad506819",
+      "completed": false,
+      "completedAt": null
+    },
+    "2f8cb944-e031-4f6d-b8a9-b516bf531875": {
+      "roadmapId": "b7fbfa50-9c52-4b6b-995a-60fef4684fbd",
+      "phaseId": "phase-2",
+      "title": "Exploring Axios and Fetch API",
+      "description": "Understanding the differences between Axios and Fetch API for making HTTP requests, and implementing them in React components.",
+      "order": 5,
+      "resources": [
+        {
+          "type": "video",
+          "title": "Axios vs Fetch API in React",
+          "url": "https://youtube.com/watch?v=cuv3o91G24k",
+          "source": "Academind",
+          "duration": "15 min",
+          "level": "intermediate"
+        },
+        {
+          "type": "article",
+          "title": "How to use Axios with React",
+          "url": "https://www.digitalocean.com/community/tutorials/react-axios",
+          "source": "DigitalOcean",
+          "readTime": "20 min",
+          "level": "intermediate"
+        }
+      ],
+      "id": "2f8cb944-e031-4f6d-b8a9-b516bf531875",
+      "completed": false,
+      "completedAt": null
+    },
+    "73d2c7bc-bf73-4d21-890e-1f952977b1ff": {
+      "roadmapId": "b7fbfa50-9c52-4b6b-995a-60fef4684fbd",
+      "phaseId": "phase-2",
+      "title": "Implementing Error Handling and Loading States",
+      "description": "Properly handling errors during data fetching and displaying loading states to enhance user experience.",
+      "order": 6,
+      "resources": [
+        {
+          "type": "video",
+          "title": "React Error Handling Best Practices",
+          "url": "https://youtube.com/watch?v=c-7T_i6N_o8",
+          "source": "Ben Awad",
+          "duration": "25 min",
+          "level": "intermediate"
+        },
+        {
+          "type": "article",
+          "title": "Loading Indicators in React",
+          "url": "https://www.smashingmagazine.com/2020/07/loading-indicators-react/",
+          "source": "Smashing Magazine",
+          "readTime": "25 min",
+          "level": "intermediate"
+        }
+      ],
+      "id": "73d2c7bc-bf73-4d21-890e-1f952977b1ff",
+      "completed": false,
+      "completedAt": null
+    },
+    "c51fe222-7b1d-4935-8d59-582c90dbf2cb": {
+      "roadmapId": "b7fbfa50-9c52-4b6b-995a-60fef4684fbd",
+      "phaseId": "phase-3",
+      "title": "Setting Up React Router DOM",
+      "description": "Installing and configuring React Router DOM for handling routing in a React application.",
+      "order": 7,
+      "resources": [
+        {
+          "type": "video",
+          "title": "React Router v6 Tutorial",
+          "url": "https://youtube.com/watch?v=WucOtY-wP48",
+          "source": "Dave Gray",
+          "duration": "30 min",
+          "level": "intermediate"
+        },
+        {
+          "type": "article",
+          "title": "React Router Documentation",
+          "url": "https://reactrouter.com/en/main",
+          "source": "React Router",
+          "readTime": "20 min",
+          "level": "intermediate"
+        }
+      ],
+      "id": "c51fe222-7b1d-4935-8d59-582c90dbf2cb",
+      "completed": false,
+      "completedAt": null
+    },
+    "b3451b91-073a-4ea5-a04d-37b3cabee318": {
+      "roadmapId": "b7fbfa50-9c52-4b6b-995a-60fef4684fbd",
+      "phaseId": "phase-3",
+      "title": "Implementing Navigation and Dynamic Routing",
+      "description": "Creating navigation links, using dynamic routing for handling different parameters, and creating protected routes.",
+      "order": 8,
+      "resources": [
+        {
+          "type": "video",
+          "title": "Dynamic Routing with React Router",
+          "url": "https://youtube.com/watch?v=fQ9qjGzU12w",
+          "source": "freeCodeCamp.org",
+          "duration": "40 min",
+          "level": "intermediate"
+        },
+        {
+          "type": "article",
+          "title": "Protected Routes in React",
+          "url": "https://www.geeksforgeeks.org/how-to-implement-protected-routes-with-react-router-v6/",
+          "source": "GeeksforGeeks",
+          "readTime": "20 min",
+          "level": "intermediate"
+        }
+      ],
+      "id": "b3451b91-073a-4ea5-a04d-37b3cabee318",
+      "completed": false,
+      "completedAt": null
+    },
+    "ce60dea9-94c2-42fa-b66f-40a8f0ffa5e3": {
+      "roadmapId": "b7fbfa50-9c52-4b6b-995a-60fef4684fbd",
+      "phaseId": "phase-3",
+      "title": "Advanced Routing Techniques",
+      "description": "Explore advanced routing concepts like lazy loading routes and custom route components.",
+      "order": 9,
+      "resources": [
+        {
+          "type": "video",
+          "title": "React Router Lazy Loading",
+          "url": "https://www.youtube.com/watch?v=t0N9u0oOa0A",
+          "source": "James Q Quick",
+          "duration": "22 min",
+          "level": "intermediate"
+        },
+        {
+          "type": "article",
+          "title": "Building Custom Route Components",
+          "url": "https://ui.dev/react-router-v5-protected-routes-authentication/",
+          "source": "UI.dev",
+          "readTime": "30 min",
+          "level": "intermediate"
+        }
+      ],
+      "id": "ce60dea9-94c2-42fa-b66f-40a8f0ffa5e3",
+      "completed": false,
+      "completedAt": null
+    },
+    "278f8621-5ba1-43d9-9367-0ab845419ead": {
+      "roadmapId": "b7fbfa50-9c52-4b6b-995a-60fef4684fbd",
+      "phaseId": "phase-4",
+      "title": "Introduction to Jest and React Testing Library",
+      "description": "Setting up Jest and React Testing Library, and understanding the basics of writing unit tests for React components.",
+      "order": 10,
+      "resources": [
+        {
+          "type": "video",
+          "title": "React Testing Library Tutorial",
+          "url": "https://youtube.com/watch?v=MLTRhv9m02k",
+          "source": "Kent C. Dodds",
+          "duration": "35 min",
+          "level": "intermediate"
+        },
+        {
+          "type": "article",
+          "title": "Getting Started with React Testing Library",
+          "url": "https://testing-library.com/docs/react-testing-library/intro/",
+          "source": "React Testing Library",
+          "readTime": "20 min",
+          "level": "intermediate"
+        }
+      ],
+      "id": "278f8621-5ba1-43d9-9367-0ab845419ead",
+      "completed": false,
+      "completedAt": null
+    },
+    "068ec4c8-9d91-4d46-9451-875ca3700e39": {
+      "roadmapId": "b7fbfa50-9c52-4b6b-995a-60fef4684fbd",
+      "phaseId": "phase-4",
+      "title": "Writing Unit Tests for Components",
+      "description": "Writing unit tests for different types of React components, including functional components, class components, and components with hooks.",
+      "order": 11,
+      "resources": [
+        {
+          "type": "video",
+          "title": "Testing React Components with Hooks",
+          "url": "https://youtube.com/watch?v=qyMdXEqDXjU",
+          "source": "Epic React",
+          "duration": "45 min",
+          "level": "intermediate"
+        },
+        {
+          "type": "article",
+          "title": "Unit Testing React Components: A Comprehensive Guide",
+          "url": "https://www.toptal.com/react/unit-testing-react-components",
+          "source": "Toptal",
+          "readTime": "30 min",
+          "level": "intermediate"
+        }
+      ],
+      "id": "068ec4c8-9d91-4d46-9451-875ca3700e39",
+      "completed": false,
+      "completedAt": null
+    },
+    "f5e19e0c-1504-45a3-b501-d5915ee3b090": {
+      "roadmapId": "b7fbfa50-9c52-4b6b-995a-60fef4684fbd",
+      "phaseId": "phase-4",
+      "title": "Mocking and Integration Testing",
+      "description": "Understanding mocking techniques for testing components with external dependencies, and performing integration tests to ensure components work together correctly.",
+      "order": 12,
+      "resources": [
+        {
+          "type": "video",
+          "title": "React Testing Library Mocking Example",
+          "url": "https://www.youtube.com/watch?v=cpv0-yDMRb4",
+          "source": "Francesco Ciulla",
+          "duration": "28 min",
+          "level": "intermediate"
+        },
+        {
+          "type": "article",
+          "title": "Integration Testing with React Testing Library",
+          "url": "https://testingjavascript.com/lessons/integration-tests",
+          "source": "Testing JavaScript",
+          "readTime": "35 min",
+          "level": "intermediate"
+        }
+      ],
+      "id": "f5e19e0c-1504-45a3-b501-d5915ee3b090",
+      "completed": false,
+      "completedAt": null
+    },
+    "0000ef5c-6b6a-4059-bc28-e95db6dc9918": {
+      "roadmapId": "65011cbc-47bb-41c2-936e-ff84f2c26d1b",
+      "phaseId": "phase-1",
+      "title": "Milestone 1.1: Mastering HTML Structure",
+      "description": "Understand semantic HTML5, document structure, forms, and accessibility basics.",
+      "order": 1,
+      "resources": [
+        {
+          "type": "video",
+          "title": "HTML Crash Course",
+          "url": "https://youtube.com/watch?v=kJGSx0A9pQ4",
+          "source": "Traversy Media",
+          "duration": "1 hr 30 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "MDN HTML Guide: Getting Started",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML",
+          "source": "MDN Web Docs",
+          "readTime": "45 min",
+          "level": "beginner"
+        },
+        {
+          "type": "online course",
+          "title": "HTML, CSS, and Javascript for Web Developers",
+          "url": "https://www.coursera.org/learn/html-css-javascript-for-web-developers",
+          "source": "Coursera (Johns Hopkins University)",
+          "duration": "Approx. 4 weeks (part-time)",
+          "level": "beginner"
+        }
+      ],
+      "id": "0000ef5c-6b6a-4059-bc28-e95db6dc9918",
+      "completed": true,
+      "completedAt": "2025-10-11T08:37:16.542Z"
+    },
+    "984fbdad-150d-4536-91ee-ff8b13080d2a": {
+      "roadmapId": "65011cbc-47bb-41c2-936e-ff84f2c26d1b",
+      "phaseId": "phase-1",
+      "title": "Milestone 1.2: Modern CSS Layout and Styling",
+      "description": "Learn Flexbox, CSS Grid, responsive design principles (media queries), and basic CSS preprocessors concepts.",
+      "order": 2,
+      "resources": [
+        {
+          "type": "video",
+          "title": "Flexbox vs Grid: What's the Difference?",
+          "url": "https://youtube.com/watch?v=cq3sWz9s50w",
+          "source": "Web Dev Simplified",
+          "duration": "25 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "A Complete Guide to Flexbox",
+          "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+          "source": "CSS-Tricks",
+          "readTime": "30 min",
+          "level": "beginner"
+        },
+        {
+          "type": "book",
+          "title": "Learning Web Design (Chapter on CSS)",
+          "url": "N/A (Purchase required)",
+          "source": "Jennifer Robbins",
+          "duration": "Self-paced",
+          "level": "beginner"
+        }
+      ],
+      "id": "984fbdad-150d-4536-91ee-ff8b13080d2a",
+      "completed": false,
+      "completedAt": null
+    },
+    "eab0a19e-193f-4249-8363-fe967a32fb9f": {
+      "roadmapId": "65011cbc-47bb-41c2-936e-ff84f2c26d1b",
+      "phaseId": "phase-1",
+      "title": "Milestone 1.3: JavaScript Fundamentals (DOM Manipulation)",
+      "description": "Grasp variables, functions, arrays, objects, control flow, and how to manipulate the Document Object Model (DOM).",
+      "order": 3,
+      "resources": [
+        {
+          "type": "video",
+          "title": "JavaScript Crash Course For Beginners",
+          "url": "https://youtube.com/watch?v=q6LvARH_FJo",
+          "source": "freeCodeCamp.org",
+          "duration": "8 hours (Focus on first 3 hours)",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "JavaScript Basics: Variables and Data Types",
+          "url": "https://javascript.info/types",
+          "source": "javascript.info",
+          "readTime": "40 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "eab0a19e-193f-4249-8363-fe967a32fb9f",
+      "completed": false,
+      "completedAt": null
+    },
+    "40fd5cb7-e8b8-47f4-874f-a25ba8442b8d": {
+      "roadmapId": "65011cbc-47bb-41c2-936e-ff84f2c26d1b",
+      "phaseId": "phase-2",
+      "title": "Milestone 2.1: Command Line and Git Version Control",
+      "description": "Learn basic terminal commands (cd, ls, mkdir) and set up Git for tracking code changes (init, add, commit, push, pull).",
+      "order": 4,
+      "resources": [
+        {
+          "type": "video",
+          "title": "Git and GitHub Crash Course for Beginners",
+          "url": "https://youtube.com/watch?v=RGOj5yH7uhA",
+          "source": "Traversy Media",
+          "duration": "1 hr 15 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "The Beginner's Guide to the Command Line",
+          "url": "https://medium.com/swlh/the-beginners-guide-to-the-command-line-312e8f07e94e",
+          "source": "Medium",
+          "readTime": "12 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "40fd5cb7-e8b8-47f4-874f-a25ba8442b8d",
+      "completed": false,
+      "completedAt": null
+    },
+    "445e77fc-dc03-4221-a11f-912546ea8ea2": {
+      "roadmapId": "65011cbc-47bb-41c2-936e-ff84f2c26d1b",
+      "phaseId": "phase-2",
+      "title": "Milestone 2.2: Introduction to React (Components & State)",
+      "description": "Understand the React philosophy, JSX, functional components, props, and managing local state using the useState hook.",
+      "order": 5,
+      "resources": [
+        {
+          "type": "online course",
+          "title": "React - The Complete Guide (incl Hooks, React Router, Redux)",
+          "url": "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",
+          "source": "Udemy (Maximilian Schwarzmüller)",
+          "duration": "Focus on first 8 hours",
+          "level": "beginner"
+        },
+        {
+          "type": "video",
+          "title": "Learn React in 20 Minutes",
+          "url": "https://youtube.com/watch?v=Y9Nk7_LWzTs",
+          "source": "Web Dev Simplified",
+          "duration": "20 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "445e77fc-dc03-4221-a11f-912546ea8ea2",
+      "completed": false,
+      "completedAt": null
+    },
+    "8c1f1f1b-c175-4a75-8f5b-ff43e0773428": {
+      "roadmapId": "65011cbc-47bb-41c2-936e-ff84f2c26d1b",
+      "phaseId": "phase-2",
+      "title": "Milestone 2.3: React Hooks and Component Lifecycle",
+      "description": "Deep dive into useEffect for side effects and understand how components render and update.",
+      "order": 6,
+      "resources": [
+        {
+          "type": "video",
+          "title": "Understanding useEffect in React",
+          "url": "https://youtube.com/watch?v=0Z29HqJ38nE",
+          "source": "Fireship",
+          "duration": "10 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "Official React Hooks Documentation",
+          "url": "https://reactjs.org/docs/hooks-intro.html",
+          "source": "React Official Docs",
+          "readTime": "60 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "8c1f1f1b-c175-4a75-8f5b-ff43e0773428",
+      "completed": false,
+      "completedAt": null
+    },
+    "41789414-bba3-464d-9046-174832b708cb": {
+      "roadmapId": "65011cbc-47bb-41c2-936e-ff84f2c26d1b",
+      "phaseId": "phase-3",
+      "title": "Milestone 3.1: Introduction to Node.js and NPM",
+      "description": "Understand asynchronous JavaScript, the Node runtime environment, and package management using NPM.",
+      "order": 7,
+      "resources": [
+        {
+          "type": "video",
+          "title": "Node.js Crash Course",
+          "url": "https://youtube.com/watch?v=RL_b6JpX5_g",
+          "source": "Traversy Media",
+          "duration": "1 hr 20 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "Node.js Explained: What Is It and Why Use It?",
+          "url": "https://www.freecodecamp.org/news/what-is-node-js/",
+          "source": "freeCodeCamp News",
+          "readTime": "15 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "41789414-bba3-464d-9046-174832b708cb",
+      "completed": false,
+      "completedAt": null
+    },
+    "e1ded892-36c1-44b0-9287-7dd2840a7dcf": {
+      "roadmapId": "65011cbc-47bb-41c2-936e-ff84f2c26d1b",
+      "phaseId": "phase-3",
+      "title": "Milestone 3.2: Building a REST API with Express",
+      "description": "Set up an Express server, define routes (GET, POST), and understand middleware.",
+      "order": 8,
+      "resources": [
+        {
+          "type": "online course",
+          "title": "Node.js, Express, MongoDB & More: The Complete Bootcamp 2024",
+          "url": "https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/",
+          "source": "Udemy (Jonas Schmedtmann)",
+          "duration": "Focus on Server setup sections",
+          "level": "beginner"
+        },
+        {
+          "type": "video",
+          "title": "Build a REST API with Node.js and Express",
+          "url": "https://youtube.com/watch?v=L72a3MMcLS4",
+          "source": "CodeWithHarry",
+          "duration": "1 hr 10 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "e1ded892-36c1-44b0-9287-7dd2840a7dcf",
+      "completed": false,
+      "completedAt": null
+    },
+    "f4bcf7d1-31c1-4bc2-a9a4-030244a7ee59": {
+      "roadmapId": "65011cbc-47bb-41c2-936e-ff84f2c26d1b",
+      "phaseId": "phase-3",
+      "title": "Milestone 3.3: Understanding Database Concepts (MongoDB/Mongoose)",
+      "description": "Introduction to NoSQL databases. Learn how to connect Node/Express to MongoDB using Mongoose for schema definition and CRUD operations.",
+      "order": 9,
+      "resources": [
+        {
+          "type": "video",
+          "title": "MongoDB Crash Course",
+          "url": "https://youtube.com/watch?v=OFWJy3HVK8c",
+          "source": "Traversy Media",
+          "duration": "1 hr 10 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "Mongoose Basics Tutorial",
+          "url": "https://mongoosejs.com/docs/guide.html",
+          "source": "Mongoose Docs",
+          "readTime": "30 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "f4bcf7d1-31c1-4bc2-a9a4-030244a7ee59",
+      "completed": false,
+      "completedAt": null
+    },
+    "9d4b315f-8e15-43d9-bb75-c08b457e55b9": {
+      "roadmapId": "65011cbc-47bb-41c2-936e-ff84f2c26d1b",
+      "phaseId": "phase-4",
+      "title": "Milestone 4.1: Asynchronous Data Fetching in React",
+      "description": "Implement data fetching using the browser's native Fetch API or Axios within React components using useEffect.",
+      "order": 10,
+      "resources": [
+        {
+          "type": "video",
+          "title": "Fetching Data in React with useEffect and Fetch",
+          "url": "https://youtube.com/watch?v=KqR7p_7L-1s",
+          "source": "Programming with Mosh",
+          "duration": "35 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "Axios vs Fetch API: Which Should You Use?",
+          "url": "https://www.smashingmagazine.com/2020/07/axios-vs-fetch-api/",
+          "source": "Smashing Magazine",
+          "readTime": "10 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "9d4b315f-8e15-43d9-bb75-c08b457e55b9",
+      "completed": false,
+      "completedAt": null
+    },
+    "f2a37457-3412-4f1c-8e82-011b73e9ffac": {
+      "roadmapId": "65011cbc-47bb-41c2-936e-ff84f2c26d1b",
+      "phaseId": "phase-4",
+      "title": "Milestone 4.2: Full CRUD Implementation",
+      "description": "Connecting React components to the backend routes to perform Create, Read, Update, and Delete operations seamlessly.",
+      "order": 11,
+      "resources": [
+        {
+          "type": "online course",
+          "title": "MERN Stack Front To Back - Full Stack React, Node, Express, Mongo",
+          "url": "https://www.udemy.com/course/mern-stack-front-to-back-the-complete-guide/",
+          "source": "Udemy (Brad Traversy)",
+          "duration": "Focus on the full-stack integration sections",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "Handling Form Submissions in React with State",
+          "url": "https://www.robinwieruch.de/react-form-handling/",
+          "source": "Robin Wieruch",
+          "readTime": "20 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "f2a37457-3412-4f1c-8e82-011b73e9ffac",
+      "completed": false,
+      "completedAt": null
+    },
+    "8a43896f-3093-4c78-a087-512a8d5fd78f": {
+      "roadmapId": "65011cbc-47bb-41c2-936e-ff84f2c26d1b",
+      "phaseId": "phase-4",
+      "title": "Milestone 4.3: Basic Client-Side Routing (React Router)",
+      "description": "Implement navigation within the React SPA using React Router (setting up routes, links, and dynamic parameters).",
+      "order": 12,
+      "resources": [
+        {
+          "type": "video",
+          "title": "React Router v6 Tutorial for Beginners",
+          "url": "https://youtube.com/watch?v=L70Xz-9_D0k",
+          "source": "Web Dev Simplified",
+          "duration": "40 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "8a43896f-3093-4c78-a087-512a8d5fd78f",
+      "completed": false,
+      "completedAt": null
+    },
+    "cd518386-d0ca-40e6-a0e7-9f2b1c912702": {
+      "roadmapId": "65011cbc-47bb-41c2-936e-ff84f2c26d1b",
+      "phaseId": "phase-5",
+      "title": "Milestone 5.1: Frontend Deployment (Netlify/Vercel)",
+      "description": "Learn how to build a React application and deploy the static files to a modern hosting platform.",
+      "order": 13,
+      "resources": [
+        {
+          "type": "video",
+          "title": "Deploying a React App to Netlify (Beginner)",
+          "url": "https://youtube.com/watch?v=Qh5Qp9u0o9Y",
+          "source": "The Net Ninja",
+          "duration": "18 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "Getting Started with Vercel for React Apps",
+          "url": "https://vercel.com/docs/overview",
+          "source": "Vercel Documentation",
+          "readTime": "20 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "cd518386-d0ca-40e6-a0e7-9f2b1c912702",
+      "completed": false,
+      "completedAt": null
+    },
+    "bdab1326-5f99-475f-9574-949ddaa706a7": {
+      "roadmapId": "65011cbc-47bb-41c2-936e-ff84f2c26d1b",
+      "phaseId": "phase-5",
+      "title": "Milestone 5.2: Backend Deployment (Render/Heroku)",
+      "description": "Prepare the Node.js/Express application for production, handle environment variables, and deploy the server and database connection.",
+      "order": 14,
+      "resources": [
+        {
+          "type": "video",
+          "title": "Deploy Node.js/Express App to Render (2024)",
+          "url": "https://youtube.com/watch?v=J8B_p11tB04",
+          "source": "Code with Antonio",
+          "duration": "45 min",
+          "level": "beginner"
+        }
+      ],
+      "id": "bdab1326-5f99-475f-9574-949ddaa706a7",
+      "completed": false,
+      "completedAt": null
+    },
+    "1d18f618-4e90-45b6-8e05-b2d3d28a70ed": {
+      "roadmapId": "65011cbc-47bb-41c2-936e-ff84f2c26d1b",
+      "phaseId": "phase-5",
+      "title": "Milestone 5.3: Final Project Consolidation and Review",
+      "description": "Refine the main project, ensure smooth communication between deployed frontend and backend, and practice explaining the architecture.",
+      "order": 15,
+      "resources": [
+        {
+          "type": "book",
+          "title": "Full Stack Development with React, Node.js, and MongoDB (Select Chapters)",
+          "url": "N/A (If available)",
+          "source": "O'Reilly/Manning (General Concepts)",
+          "duration": "Self-paced Review",
+          "level": "beginner"
+        }
+      ],
+      "id": "1d18f618-4e90-45b6-8e05-b2d3d28a70ed",
+      "completed": false,
+      "completedAt": null
+    },
+    "cd983ae7-5ece-4444-bc63-9ef5829ae4d5": {
+      "roadmapId": "770d4047-6923-4e0b-b919-6eaeef8232a3",
+      "phaseId": "phase-1",
+      "title": "Python Basics & Environment Setup",
+      "description": "Setting up the Python environment (Anaconda/VS Code) and mastering core Python syntax, control flow, and functions.",
+      "order": 1,
+      "resources": [
+        {
+          "type": "video",
+          "title": "Python Tutorial for Beginners - Full Course (10 Hours)",
+          "url": "https://www.youtube.com/results?search_query=Python%20full%20course%20for%20beginners%202024%20freeCodeCamp",
+          "source": "YouTube Search",
+          "duration": "10 hours",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "Getting Started with Anaconda and Jupyter Notebooks",
+          "url": "https://docs.anaconda.com/anaconda/user-guide/getting-started/",
+          "source": "Anaconda Documentation",
+          "readTime": "20 min",
+          "level": "beginner"
+        },
+        {
+          "type": "course",
+          "title": "Python for Everybody Specialization (Course 1: Programming Foundations)",
+          "url": "https://www.coursera.org/learn/python-programming-foundations",
+          "source": "Coursera",
+          "duration": "4 weeks",
+          "level": "beginner"
+        }
+      ],
+      "id": "cd983ae7-5ece-4444-bc63-9ef5829ae4d5",
+      "completed": false,
+      "completedAt": null
+    },
+    "3bd7edf5-6540-4285-b0c0-1cb45211d22e": {
+      "roadmapId": "770d4047-6923-4e0b-b919-6eaeef8232a3",
+      "phaseId": "phase-1",
+      "title": "Mastering NumPy for Numerical Operations",
+      "description": "Learning array creation, indexing, mathematical operations, and broadcasting using the NumPy library.",
+      "order": 2,
+      "resources": [
+        {
+          "type": "video",
+          "title": "NumPy Tutorial for Beginners - Array Manipulation and Operations",
+          "url": "https://www.youtube.com/results?search_query=NumPy%20array%20creation%20and%20manipulation%20beginner%20tutorial",
+          "source": "YouTube Search",
+          "duration": "1 hour 30 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "Introduction to NumPy",
+          "url": "https://numpy.org/doc/stable/user/quickstart.html",
+          "source": "NumPy Official Documentation",
+          "readTime": "30 min",
+          "level": "beginner"
+        },
+        {
+          "type": "course",
+          "title": "Introduction to Data Science with Python (Focus on NumPy)",
+          "url": "https://www.datacamp.com/courses/introduction-to-numpy",
+          "source": "DataCamp",
+          "duration": "3 hours",
+          "level": "beginner"
+        }
+      ],
+      "id": "3bd7edf5-6540-4285-b0c0-1cb45211d22e",
+      "completed": false,
+      "completedAt": null
+    },
+    "ae8ac889-c425-4e09-9b69-92c99123c3f9": {
+      "roadmapId": "770d4047-6923-4e0b-b919-6eaeef8232a3",
+      "phaseId": "phase-1",
+      "title": "Data Wrangling with Pandas",
+      "description": "Understanding Series and DataFrames, data loading, cleaning (handling NaNs), filtering, and basic aggregation.",
+      "order": 3,
+      "resources": [
+        {
+          "type": "video",
+          "title": "Pandas Tutorial for Beginners: DataFrames Explained",
+          "url": "https://www.youtube.com/results?search_query=Pandas%20DataFrame%20beginner%20tutorial%20data%20loading%20cleaning",
+          "source": "YouTube Search",
+          "duration": "2 hours",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "10 Minutes to Pandas",
+          "url": "https://pandas.pydata.org/docs/user_guide/10min.html",
+          "source": "Pandas Documentation",
+          "readTime": "15 min",
+          "level": "beginner"
+        },
+        {
+          "type": "course",
+          "title": "Data Manipulation with Pandas Course",
+          "url": "https://www.udemy.com/course/data-manipulation-with-pandas",
+          "source": "Udemy",
+          "duration": "5 hours",
+          "level": "beginner"
+        }
+      ],
+      "id": "ae8ac889-c425-4e09-9b69-92c99123c3f9",
+      "completed": false,
+      "completedAt": null
+    },
+    "f7b6a036-eb3c-4464-aa83-8e2f0d2aaa7d": {
+      "roadmapId": "770d4047-6923-4e0b-b919-6eaeef8232a3",
+      "phaseId": "phase-2",
+      "title": "Matplotlib Fundamentals",
+      "description": "Creating basic plots (line, scatter, bar) and understanding figure, axes, and subplot configuration in Matplotlib.",
+      "order": 4,
+      "resources": [
+        {
+          "type": "video",
+          "title": "Matplotlib Tutorial for Beginners - Creating Basic Plots",
+          "url": "https://www.youtube.com/results?search_query=Matplotlib%20tutorial%20for%20beginners%20line%20scatter%20plot%20guide",
+          "source": "YouTube Search",
+          "duration": "1 hour 45 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "Matplotlib Tutorial: An Introduction",
+          "url": "https://www.machinelearningplus.com/plots/matplotlib-tutorial-beginners/",
+          "source": "Machine Learning Plus",
+          "readTime": "25 min",
+          "level": "beginner"
+        },
+        {
+          "type": "course",
+          "title": "Data Visualization with Python",
+          "url": "https://www.edx.org/course/data-visualization-with-python",
+          "source": "edX",
+          "duration": "3 weeks",
+          "level": "beginner"
+        }
+      ],
+      "id": "f7b6a036-eb3c-4464-aa83-8e2f0d2aaa7d",
+      "completed": false,
+      "completedAt": null
+    },
+    "02ae416d-d3f2-40de-ba6a-503413bc89fb": {
+      "roadmapId": "770d4047-6923-4e0b-b919-6eaeef8232a3",
+      "phaseId": "phase-2",
+      "title": "Statistical Visualization with Seaborn",
+      "description": "Leveraging Seaborn for generating statistically meaningful visualizations (histograms, box plots, correlation heatmaps).",
+      "order": 5,
+      "resources": [
+        {
+          "type": "video",
+          "title": "Seaborn Tutorial for Data Science: Statistical Plots Explained",
+          "url": "https://www.youtube.com/results?search_query=Seaborn%20statistical%20plots%20tutorial%20for%20beginners%20EDA",
+          "source": "YouTube Search",
+          "duration": "1 hour 15 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "Seaborn Documentation: Gallery and Examples",
+          "url": "https://seaborn.pydata.org/examples/index.html",
+          "source": "Seaborn Official Docs",
+          "readTime": "30 min",
+          "level": "beginner"
+        },
+        {
+          "type": "course",
+          "title": "Data Visualization with Seaborn",
+          "url": "https://www.datacamp.com/courses/data-visualization-with-seaborn",
+          "source": "DataCamp",
+          "duration": "4 hours",
+          "level": "beginner"
+        }
+      ],
+      "id": "02ae416d-d3f2-40de-ba6a-503413bc89fb",
+      "completed": false,
+      "completedAt": null
+    },
+    "e6f6f005-c981-4b93-ad5e-750784d90d9f": {
+      "roadmapId": "770d4047-6923-4e0b-b919-6eaeef8232a3",
+      "phaseId": "phase-2",
+      "title": "Conducting Exploratory Data Analysis (EDA)",
+      "description": "Applying Pandas and visualization skills to perform a comprehensive EDA pipeline on a real-world dataset.",
+      "order": 6,
+      "resources": [
+        {
+          "type": "video",
+          "title": "End-to-End Exploratory Data Analysis (EDA) on Titanic Dataset using Python",
+          "url": "https://www.youtube.com/results?search_query=End%20to%20end%20EDA%20project%20using%20Pandas%20Matplotlib%20beginner",
+          "source": "YouTube Search",
+          "duration": "1 hour 30 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "The Complete Guide to Exploratory Data Analysis (EDA)",
+          "url": "https://towardsdatascience.com/the-complete-guide-to-exploratory-data-analysis-6c58e6d5e55d",
+          "source": "Towards Data Science",
+          "readTime": "15 min",
+          "level": "beginner"
+        },
+        {
+          "type": "project",
+          "title": "EDA on the Titanic Dataset",
+          "url": "Kaggle Dataset Link: Titanic - Machine Learning from Disaster",
+          "source": "Kaggle",
+          "readTime": "Project Based",
+          "level": "beginner"
+        }
+      ],
+      "id": "e6f6f005-c981-4b93-ad5e-750784d90d9f",
+      "completed": false,
+      "completedAt": null
+    },
+    "ee645605-5d81-4516-b3cc-9abc63c08c1d": {
+      "roadmapId": "770d4047-6923-4e0b-b919-6eaeef8232a3",
+      "phaseId": "phase-3",
+      "title": "ML Concepts and Scikit-learn Setup",
+      "description": "Understanding core ML terminology, the Scikit-learn workflow (fit, predict, transform), and data splitting.",
+      "order": 7,
+      "resources": [
+        {
+          "type": "video",
+          "title": "Machine Learning Basics Explained Simply for Beginners",
+          "url": "https://www.youtube.com/results?search_query=Machine%20learning%20concepts%20explained%20simply%20for%20beginners",
+          "source": "YouTube Search",
+          "duration": "45 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "Scikit-learn User Guide: Getting Started",
+          "url": "https://scikit-learn.org/stable/getting_started.html",
+          "source": "Scikit-learn Documentation",
+          "readTime": "20 min",
+          "level": "beginner"
+        },
+        {
+          "type": "course",
+          "title": "Introduction to Machine Learning (Beginner Focus)",
+          "url": "https://www.udacity.com/course/intro-to-machine-learning-cs110",
+          "source": "Udacity",
+          "duration": "10 weeks",
+          "level": "beginner"
+        }
+      ],
+      "id": "ee645605-5d81-4516-b3cc-9abc63c08c1d",
+      "completed": false,
+      "completedAt": null
+    },
+    "f336d395-6fea-44b1-8cec-db13baad8834": {
+      "roadmapId": "770d4047-6923-4e0b-b919-6eaeef8232a3",
+      "phaseId": "phase-3",
+      "title": "Simple Linear Regression Implementation",
+      "description": "Implementing Linear Regression, understanding coefficients, R-squared, and model evaluation metrics.",
+      "order": 8,
+      "resources": [
+        {
+          "type": "video",
+          "title": "Linear Regression from Scratch using Python and Scikit-learn Tutorial",
+          "url": "https://www.youtube.com/results?search_query=Linear%20Regression%20implementation%20Scikit-learn%20beginner%20tutorial",
+          "source": "YouTube Search",
+          "duration": "1 hour 10 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "Linear Regression in Python with Scikit-learn",
+          "url": "https://towardsdatascience.com/linear-regression-in-python-with-scikit-learn-de6f71586d65",
+          "source": "Towards Data Science",
+          "readTime": "15 min",
+          "level": "beginner"
+        },
+        {
+          "type": "project",
+          "title": "Predicting House Prices using Simple Linear Regression",
+          "url": "Kaggle Dataset Link: California Housing Prices or Boston Housing Dataset",
+          "source": "Kaggle",
+          "readTime": "Project Based",
+          "level": "beginner"
+        }
+      ],
+      "id": "f336d395-6fea-44b1-8cec-db13baad8834",
+      "completed": false,
+      "completedAt": null
+    },
+    "556ceb10-30c0-45b4-8ce3-892b8211c478": {
+      "roadmapId": "770d4047-6923-4e0b-b919-6eaeef8232a3",
+      "phaseId": "phase-3",
+      "title": "Classification with Logistic Regression and K-NN",
+      "description": "Implementing Logistic Regression and K-Nearest Neighbors (K-NN) for binary classification and evaluating performance (Accuracy, Confusion Matrix).",
+      "order": 9,
+      "resources": [
+        {
+          "type": "video",
+          "title": "Logistic Regression vs K-NN - Which Classification Model to Choose?",
+          "url": "https://www.youtube.com/results?search_query=Logistic%20Regression%20and%20K-NN%20implementation%20comparison%20beginner",
+          "source": "YouTube Search",
+          "duration": "50 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "Understanding Logistic Regression for Classification",
+          "url": "https://www.ibm.com/topics/logistic-regression",
+          "source": "IBM Cloud Education",
+          "readTime": "12 min",
+          "level": "beginner"
+        },
+        {
+          "type": "course",
+          "title": "Machine Learning for Everyone (Focus on Classification)",
+          "url": "https://www.coursera.org/learn/machine-learning-everyone",
+          "source": "Coursera",
+          "duration": "4 weeks",
+          "level": "beginner"
+        }
+      ],
+      "id": "556ceb10-30c0-45b4-8ce3-892b8211c478",
+      "completed": false,
+      "completedAt": null
+    },
+    "ce333fe5-c7a3-4674-a94e-25cccd867f6d": {
+      "roadmapId": "770d4047-6923-4e0b-b919-6eaeef8232a3",
+      "phaseId": "phase-4",
+      "title": "Model Preprocessing and Feature Engineering Basics",
+      "description": "Learning scaling techniques (StandardScaler) and handling categorical data (One-Hot Encoding) required for ML models.",
+      "order": 10,
+      "resources": [
+        {
+          "type": "video",
+          "title": "Feature Scaling and Encoding in Scikit-learn for Beginners",
+          "url": "https://www.youtube.com/results?search_query=StandardScaler%20and%20OneHotEncoder%20Scikit-learn%20explained%20tutorial",
+          "source": "YouTube Search",
+          "duration": "55 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "A Gentle Introduction to Feature Engineering",
+          "url": "https://towardsdatascience.com/a-gentle-introduction-to-feature-engineering-e155832b2e5e",
+          "source": "Towards Data Science",
+          "readTime": "10 min",
+          "level": "beginner"
+        },
+        {
+          "type": "course",
+          "title": "Feature Engineering for Machine Learning",
+          "url": "https://www.udemy.com/course/feature-engineering-for-machine-learning/",
+          "source": "Udemy",
+          "duration": "6 hours",
+          "level": "beginner"
+        }
+      ],
+      "id": "ce333fe5-c7a3-4674-a94e-25cccd867f6d",
+      "completed": false,
+      "completedAt": null
+    },
+    "e5e6f34e-8334-4e6b-9704-75f0a3d44745": {
+      "roadmapId": "770d4047-6923-4e0b-b919-6eaeef8232a3",
+      "phaseId": "phase-4",
+      "title": "Project 1 Execution: Classification",
+      "description": "Apply the full pipeline (cleaning, EDA, preprocessing, Logistic Regression/K-NN) to a structured classification dataset (e.g., breast cancer, Iris).",
+      "order": 11,
+      "resources": [
+        {
+          "type": "video",
+          "title": "Step-by-Step Classification Project using Python Scikit-learn Complete Guide",
+          "url": "https://www.youtube.com/results?search_query=Complete%20classification%20project%20Scikit-learn%20pipeline%20beginner%20tutorial",
+          "source": "YouTube Search",
+          "duration": "2 hours",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "How to Structure Your First Machine Learning Project Notebook",
+          "url": "https://www.kdnuggets.com/2021/06/structure-machine-learning-project-notebook.html",
+          "source": "KDnuggets",
+          "readTime": "8 min",
+          "level": "beginner"
+        },
+        {
+          "type": "project",
+          "title": "Project 1: Classification Model Building",
+          "url": "Kaggle Dataset Link: Iris or Breast Cancer Wisconsin Dataset",
+          "source": "Kaggle",
+          "readTime": "Project Based",
+          "level": "beginner"
+        }
+      ],
+      "id": "e5e6f34e-8334-4e6b-9704-75f0a3d44745",
+      "completed": false,
+      "completedAt": null
+    },
+    "16b7a20c-a67b-4f37-9a2f-8a6623918fa5": {
+      "roadmapId": "770d4047-6923-4e0b-b919-6eaeef8232a3",
+      "phaseId": "phase-4",
+      "title": "Project Documentation and Portfolio Preparation",
+      "description": "Refining the Jupyter Notebook, adding clear explanations, and preparing the project artifact for sharing (e.g., basic GitHub setup).",
+      "order": 12,
+      "resources": [
+        {
+          "type": "video",
+          "title": "How to Present Your Data Science Projects Professionally in Notebooks",
+          "url": "https://www.youtube.com/results?search_query=Documenting%20Jupyter%20Notebook%20for%20data%20science%20portfolio%20guide",
+          "source": "YouTube Search",
+          "duration": "40 min",
+          "level": "beginner"
+        },
+        {
+          "type": "article",
+          "title": "Best Practices for Organizing and Sharing Data Science Projects on GitHub",
+          "url": "https://realpython.com/python-projects-github/",
+          "source": "Real Python",
+          "readTime": "15 min",
+          "level": "beginner"
+        },
+        {
+          "type": "course",
+          "title": "Introduction to Git and GitHub",
+          "url": "https://www.udemy.com/course/introduction-to-git-and-github-for-beginners/",
+          "source": "Udemy",
+          "duration": "3 hours",
+          "level": "beginner"
+        }
+      ],
+      "id": "16b7a20c-a67b-4f37-9a2f-8a6623918fa5",
+      "completed": false,
+      "completedAt": null
+    }
+  },
+  "userProgress": {
+    "user-1-fbe48d98-c0bd-4d5e-bd49-84a3b4124430": {
+      "id": "e010a99e-1629-43a7-a8a0-0adf39097a30",
+      "userId": "user-1",
+      "roadmapId": "fbe48d98-c0bd-4d5e-bd49-84a3b4124430",
+      "totalHours": 0,
+      "streak": 0,
+      "lastActivity": "2025-10-11T05:16:23.900Z"
+    },
+    "user-1-2aa06416-1362-4fc2-81c7-39cde5a19012": {
+      "id": "98514703-3a48-4e1a-a35c-f81ea7ac8433",
+      "userId": "user-1",
+      "roadmapId": "2aa06416-1362-4fc2-81c7-39cde5a19012",
+      "totalHours": 0,
+      "streak": 0,
+      "lastActivity": "2025-10-11T08:20:30.476Z"
+    },
+    "user-1-b7fbfa50-9c52-4b6b-995a-60fef4684fbd": {
+      "id": "590d6593-9d9e-421b-a842-24ba9d02bd8c",
+      "userId": "user-1",
+      "roadmapId": "b7fbfa50-9c52-4b6b-995a-60fef4684fbd",
+      "totalHours": 0,
+      "streak": 0,
+      "lastActivity": "2025-10-11T08:27:45.654Z"
+    },
+    "user-1-65011cbc-47bb-41c2-936e-ff84f2c26d1b": {
+      "id": "4be52ab3-d35a-4573-82a1-0dd579ddd139",
+      "userId": "user-1",
+      "roadmapId": "65011cbc-47bb-41c2-936e-ff84f2c26d1b",
+      "totalHours": 0,
+      "streak": 0,
+      "lastActivity": "2025-10-11T08:36:35.438Z"
+    },
+    "user-1-770d4047-6923-4e0b-b919-6eaeef8232a3": {
+      "id": "e081ebfb-6907-4fdf-aac4-ea08d38cc217",
+      "userId": "user-1",
+      "roadmapId": "770d4047-6923-4e0b-b919-6eaeef8232a3",
+      "totalHours": 0,
+      "streak": 0,
+      "lastActivity": "2025-10-11T08:52:27.408Z"
+    }
+  }
+}
